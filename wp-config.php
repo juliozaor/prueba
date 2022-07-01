@@ -26,14 +26,20 @@ define('WP_CACHE', true);
 define( 'WPCACHEHOME', '/home/tiendacristar/public_html/wp-content/plugins/wp-super-cache/' );
 define( 'DB_NAME', 'tiendacr_wpsitio' );
 
+
 /** MySQL database username */
-define( 'DB_USER', 'tiendacr_wpuser' );
+//define( 'DB_USER', 'tiendacr_wpuser' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '9$O~QVnKpH9U' );
+//define( 'DB_PASSWORD', '9$O~QVnKpH9U' );
 
 /** MySQL hostname */
-define( 'DB_HOST', '127.0.0.1' );
+//define( 'DB_HOST', '127.0.0.1' );
+
+define('DB_NAME', 'pruebacristar');
+define('DB_USER', 'usrCristar');
+define('DB_PASSWORD', '2345gvdf4d*234gf!!dQQ');
+define('DB_HOST', 'aa1r3ltovoc612k.cgowwl3aakag.us-east-2.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
