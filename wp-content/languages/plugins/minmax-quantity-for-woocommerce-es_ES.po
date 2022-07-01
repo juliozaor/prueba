@@ -1,0 +1,870 @@
+# Translation of Plugins - Min and Max Quantity for WooCommerce - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Min and Max Quantity for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-07 16:51:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Min and Max Quantity for WooCommerce - Stable (latest release)\n"
+
+#: berocket/framework.php:470
+msgid "Close"
+msgstr "Cerrar"
+
+#: berocket/includes/custom_post/enable_disable.php:136
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: berocket/framework.php:469
+msgid "Next"
+msgstr "Siguiente"
+
+#: berocket/includes/custom_post/enable_disable.php:128
+msgid "Enabled"
+msgstr "Activado"
+
+#: berocket/includes/custom_post/enable_disable.php:81
+msgid "The item you are trying to change status no longer exists."
+msgstr "El artículo que estás intentando cambiar de estado ya no existe."
+
+#: berocket/includes/updater.php:588
+msgid "Select plugin"
+msgstr "Seleccionar el plugin"
+
+#: berocket/includes/updater.php:586
+msgid "Errors"
+msgstr "Errores"
+
+#: berocket/includes/updater.php:552
+msgid "Account key"
+msgstr "Clave de la cuenta"
+
+#: berocket/includes/updater.php:549
+msgid "Enable debug mode"
+msgstr "Activar el modo de depuración"
+
+#: berocket/includes/updater.php:546
+msgid "DEBUG MODE"
+msgstr "MODO DE DEPURACIÓN"
+
+#: berocket/includes/updater.php:468
+msgid "BeRocket Account"
+msgstr "Cuenta de BeRocket"
+
+#: berocket/includes/updater.php:468 berocket/includes/updater.php:482
+#: berocket/includes/updater.php:542
+msgid "BeRocket Account Settings"
+msgstr "Ajustes de la cuenta de BeRocket"
+
+#: berocket/includes/updater.php:140 berocket/includes/updater.php:482
+msgid "Account Keys"
+msgstr "Claves de la cuenta"
+
+#: berocket/includes/custom_post.php:163
+msgctxt "BeRocket_domain"
+msgid "Disable"
+msgstr "Desactivar"
+
+#: berocket/includes/custom_post.php:156
+msgctxt "BeRocket_domain"
+msgid "Enable"
+msgstr "Activar"
+
+#: berocket/includes/custom_post.php:155
+#: berocket/includes/custom_post/enable_disable.php:34
+msgid "Enable"
+msgstr "Activar"
+
+#: includes/custom_post.php:305
+msgid "will be replaced with value from cart"
+msgstr "será remplazado por el valor del carrito"
+
+#: berocket/includes/custom_post/enable_disable.php:60
+#: berocket/includes/custom_post/enable_disable.php:87
+msgid "Sorry, you are not allowed to change this item status."
+msgstr "Lo siento, no tienes permisos para cambiar el estado de este artículo."
+
+#: berocket/includes/custom_post/enable_disable.php:84
+msgid "Invalid post type."
+msgstr "Tipo de publicación no válido."
+
+#: berocket/includes/admin_notices.php:1218
+msgid "Get it now"
+msgstr "¡Consíguelo ahora!"
+
+#. Author URI of the plugin
+msgid "https://berocket.com?utm_source=free_plugin&utm_medium=plugins&utm_campaign=MM_Quantity"
+msgstr "https://berocket.com?utm_source=free_plugin&utm_medium=plugins&utm_campaign=MM_Quantity"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/minmax-quantity-for-woocommerce/?utm_source=free_plugin&utm_medium=plugins&utm_campaign=MM_Quantity"
+msgstr "https://es.wordpress.org/plugins/minmax-quantity-for-woocommerce/?utm_source=free_plugin&utm_medium=plugins&utm_campaign=MM_Quantity"
+
+#: berocket/libraries/feature_tab.php:42
+msgid "Premium"
+msgstr "Premium"
+
+#: berocket/framework.php:310
+msgid "Support"
+msgstr "Soporte"
+
+#: berocket/libraries/feature_tab.php:29
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: berocket/libraries/feature_tab.php:28
+msgid "Upgrade to Premium "
+msgstr "Actualizar a premium "
+
+#: berocket/framework.php:309
+msgid "View Support Page"
+msgstr "Ver la página de soporte"
+
+#: includes/custom_post.php:304
+msgid "will be replaced with value that must be used for this limitation"
+msgstr "será reemplazado con el valor que debe usarse para esta limitación"
+
+#: includes/custom_post.php:303
+msgid "will be replaced with product names, that cause limitation error"
+msgstr "será reemplazado con el nombre del producto, que causa el error de limitación  "
+
+#: includes/addons/set_input_limitation.php:255
+msgid "Force Minimum quantity & Multiplicity for product on adding to cart"
+msgstr "Fuerza cantidad mínima y multiplicidad de producto al añadirlo al carrito"
+
+#: includes/addons/set_input_limitation.php:254
+msgid "Force Minimum Quantity & Multiplicity"
+msgstr "Forzar cantidad mínima y multiplicidad"
+
+#: includes/custom_post.php:18
+msgid "Shipping Method"
+msgstr "Método de envío"
+
+#: includes/custom_post.php:13
+msgid "Shipping Zone"
+msgstr "Zona de envío"
+
+#: main.php:280
+msgid "Full OR Limitation"
+msgstr "Completo O Limitación"
+
+#: berocket/libraries/feature_tab.php:42
+msgid "Features"
+msgstr "Características"
+
+#: berocket/includes/updater.php:245
+msgid "You can activate plugin in"
+msgstr "Puedes activar el plugin en"
+
+#: berocket/includes/updater.php:244
+msgid "BeRocket account"
+msgstr "Cuenta BeRocket"
+
+#: berocket/includes/updater.php:243
+msgid "activate plugin"
+msgstr "activar plugin"
+
+#: berocket/includes/updater.php:243
+msgid "Please"
+msgstr "Por favor"
+
+#: includes/custom_post.php:37
+msgid "Any coupon if not selected"
+msgstr "Cualquier cupón si no se selecciona"
+
+#: berocket/includes/updater.php:246
+msgid "BeRocket Account settings"
+msgstr "Ajustes de la cuenta BeRocket"
+
+#: includes/custom_post.php:8
+msgid "Cart Coupon"
+msgstr "Cupón de carrito"
+
+#: berocket/includes/updater.php:243
+msgid "with help of plugin/account key from"
+msgstr "con la ayuda del plugin/clave de cuenta de"
+
+#: berocket/libraries/addons/addons.php:153
+#: berocket/libraries/templates/templates.php:164
+msgid "Go Premium"
+msgstr "Pásate a Premiun"
+
+#: berocket/libraries/addons/addons.php:106
+msgid "Active Addons"
+msgstr "Extensiones activas"
+
+#: berocket/libraries/addons/addons.php:110
+msgid "Inactive Addons"
+msgstr "Extensiones inactivas"
+
+#: berocket/includes/custom_post/sortable.php:110
+msgid "Order"
+msgstr "Orden"
+
+#: includes/addons/attribute_limitation.php:64
+#: includes/addons/attribute_limitation.php:113
+msgid "Post Meta"
+msgstr "Metadatos de la entrada"
+
+#: includes/addons/attribute_limitation.php:112
+#: includes/addons/attribute_limitation.php:122
+msgid "Attribute"
+msgstr "Atributo"
+
+#: berocket/includes/custom_post.php:162
+#: berocket/includes/custom_post/enable_disable.php:37
+#: includes/addons/attribute_limitation.php:111
+msgid "Disable"
+msgstr "Desactivar"
+
+#: includes/addons/attribute_limitation.php:106
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/addons/attribute_limitation.php:288
+msgid "Maximum Attribute Summary"
+msgstr "Resumen del atributo máximo"
+
+#: includes/addons/attribute_limitation.php:281
+msgid "Minimum Attribute Summary"
+msgstr "Resumen del atributo mínimo"
+
+#: includes/addons/attribute_limitation.php:162
+msgid "Maximum Attribute/Postmeta Message"
+msgstr "Mensaje de máximo para Atributo/Postmeta"
+
+#: includes/addons/attribute_limitation.php:154
+msgid "Minimum Attribute/Postmeta Message"
+msgstr "Mensaje de mínimo para Atributo/Postmeta"
+
+#: includes/addons/attribute_limitation.php:38
+msgid "Attribute/Postmeta must have nummeric values. All non numeric values will be converted to 0"
+msgstr "El attributo/postmeta debe tener valores numéricos. Todos los valores no numéricos se convertirán a 0"
+
+#: berocket/includes/conditions.php:250
+msgid "Product price"
+msgstr "Precio del producto"
+
+#: berocket/includes/conditions.php:252
+msgid "Without tax"
+msgstr "Sin impuestos"
+
+#: berocket/includes/conditions.php:251
+msgid "With tax"
+msgstr "Con impuestos"
+
+#. Plugin Name of the plugin
+msgid "Min and Max Quantity for WooCommerce"
+msgstr "Cantidad minima y máxima para Woocommerce"
+
+#: includes/custom_post.php:282
+msgid "ADD LIMITATION"
+msgstr "AÑADIR LIMITACIÓN"
+
+#: includes/custom_post.php:211
+msgid "Add Min/Max Limitation"
+msgstr "Añadir limitación mínima/máxima"
+
+#: includes/custom_post.php:212
+msgid "Add New Min/Max Limitation"
+msgstr "Añadir nueva limitación mínima/máxima"
+
+#: includes/addons/set_input_limitation.php:301
+msgid "Any limitation for maximum Quantity"
+msgstr "Cualquier limitación para la cantidad máxima"
+
+#: main.php:329
+msgid "Archive page"
+msgstr "Página de archivo"
+
+#. Author of the plugin
+msgid "BeRocket"
+msgstr "BeRocket"
+
+#: main.php:313
+msgid "Cart page"
+msgstr "Página del carrito"
+
+#: main.php:305
+msgid "Chekcout page"
+msgstr "Página de finalizar compra"
+
+#: includes/custom_post.php:248
+msgid "Conditions"
+msgstr "Condiciones"
+
+#: includes/custom_post.php:213
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/addons/set_input_limitation.php:261
+msgid "Global Limitation"
+msgstr "Limitación global"
+
+#: includes/addons/set_input_limitation.php:304
+msgid "Limitation with enabled option \"Each Product\""
+msgstr "Limitación con la opción activada «Cada producto»"
+
+#: main.php:224
+msgid "Hide Checkout button"
+msgstr "Ocultar el botón de pago"
+
+#: main.php:375
+msgid "Input Limitation"
+msgstr "Limitación de entrada"
+
+#: includes/addons/set_input_limitation.php:298
+msgid "It works with:"
+msgstr "Funciona con:"
+
+#: includes/addons/set_input_limitation.php:302
+msgid "Limitation in simple products"
+msgstr "Limitación en productos simples"
+
+#: includes/addons/set_input_limitation.php:303
+msgid "Limitation in variations of variable product"
+msgstr "Limitación en las variaciones de productos variables"
+
+#: includes/custom_post.php:210
+msgctxt "Admin menu name"
+msgid "Limitations"
+msgstr "Limitaciones"
+
+#: includes/custom_post.php:317
+msgid "Maximum Price"
+msgstr "Precio máximo"
+
+#: includes/custom_post.php:314 main.php:552 main.php:605
+msgid "Maximum Quantity"
+msgstr "Cantidad máxima"
+
+#: main.php:253 main.php:268
+msgid "Maximum: "
+msgstr "Máximo: "
+
+#: includes/custom_post.php:206 includes/custom_post.php:208
+#: includes/custom_post.php:209
+msgid "Min/Max Limitation"
+msgstr "Limitación mínima/máxima"
+
+#: includes/custom_post.php:249
+msgid "Min/Max Settings"
+msgstr "Ajustes mínimos/máximos"
+
+#: includes/custom_post.php:315
+msgid "Minimum Price"
+msgstr "Precio mínimo"
+
+#: includes/custom_post.php:313 main.php:541 main.php:595
+msgid "Minimum Quantity"
+msgstr "Cantidad mínima"
+
+#: main.php:248 main.php:263
+msgid "Minimum: "
+msgstr "Mínimo: "
+
+#: includes/custom_post.php:215
+msgid "New Min/Max Limitation"
+msgstr "Nueva limitación mínima/máxima"
+
+#: includes/custom_post.php:329
+msgid "OR"
+msgstr "O"
+
+#: main.php:337
+msgid "Other pages"
+msgstr "Otras páginas"
+
+#. Description of the plugin
+msgid "Plugin for WooCommerce which add minimum and maximum quantities for products"
+msgstr "Plugin para WooCommerce que añade cantidades mínimas y máximas para los productos"
+
+#: main.php:321
+msgid "Product page"
+msgstr "Página de producto"
+
+#: includes/custom_post.php:311
+msgid "REMOVE LIMITATION"
+msgstr "QUITAR LIMITACIÓN"
+
+#: berocket/includes/widget.php:51
+msgid "Title:"
+msgstr "Título:"
+
+#: includes/custom_post.php:362
+msgid "Use local text"
+msgstr "Usar texto local"
+
+#: includes/addons/set_input_limitation.php:237
+msgid "View Cart"
+msgstr "Ver carrito"
+
+#: main.php:297
+msgid "If on some pages errors displayed twice enable this option"
+msgstr "Si en algunas páginas los errores se muestran dos veces activa esta opción"
+
+#: main.php:750
+msgid "Quantity of one variation of a %products% product can not be more than <strong>%value%</strong>"
+msgstr "La cantidad de una variación del producto %products% no puede ser más de <strong>%value%</strong>"
+
+#: main.php:749
+msgid "Quantity of one variation of a %products% product can not be less than <strong>%value%</strong>"
+msgstr "La cantidad de una variación del producto %products% no puede ser menos de <strong>%value%</strong>"
+
+#: main.php:744
+msgid "Quantity of product %products% can not be more than <strong>%value%</strong>"
+msgstr "La cantidad del producto %products% no puede ser más de <strong>%value%</strong>"
+
+#: main.php:743
+msgid "Quantity of product %products% can not be less than <strong>%value%</strong>"
+msgstr "La cantidad del producto %products% no puede ser menor de <strong>%value%</strong>"
+
+#: main.php:376
+msgid "Set correct limitation for product quantity input field on product page and cart page"
+msgstr "Establece la limitación correcta para el campo de entrada de cantidad de producto en la página del producto y en la página del carrito"
+
+#: main.php:300
+msgid "Pages to fix duplicate"
+msgstr "Páginas de las que corregir el duplicado"
+
+#: main.php:292
+msgid "Fix error duplicate"
+msgstr "Corregir error de duplicado"
+
+#: main.php:286
+msgid "Display on product pages errors only for this product"
+msgstr "Mostrar en las páginas de productos errores sólo para este producto"
+
+#: main.php:277
+msgid "Doesn't add products when limit reached"
+msgstr "No añadir productos cuando se alcanza el límite"
+
+#: main.php:273
+msgid "Prevent add to cart"
+msgstr "Evitar añadir al carrito"
+
+#: main.php:258
+msgid "Cart products price"
+msgstr "Precio de los productos de carrito"
+
+#: main.php:243
+msgid "Cart products quantity"
+msgstr "Cantidad de los productos del carrito"
+
+#: main.php:240
+msgid "Checkout widget cart button class: "
+msgstr "Clase de botón de pago del widget del carrito: "
+
+#: main.php:234
+msgid "Checkout cart button class: "
+msgstr "Clase de botón de pago del carrito: "
+
+#: main.php:228
+msgid "if min/max requirements no passed hide checkout button."
+msgstr "ocultar del botón de finalizar compra si no se cumplen los requisitos de mínimo/máximo."
+
+#: includes/custom_post.php:390 main.php:361
+msgid "Maximum Price Message"
+msgstr "Mensaje de precio máximo"
+
+#: includes/custom_post.php:383 main.php:355
+msgid "Minimum Price Message"
+msgstr "Mensaje de precio mínimo"
+
+#: includes/custom_post.php:376 main.php:349
+msgid "Maximum Quantity Message"
+msgstr "Mensaje de cantidad máxima"
+
+#: includes/custom_post.php:369 main.php:343
+msgid "Minimum Quantity Message"
+msgstr "Mensaje de cantidad mínima"
+
+#: includes/custom_post.php:222
+msgid "This is where you can add Min/Max Limitations."
+msgstr "Aquí es donde puedes añadir limitaciones mínimas/máximas."
+
+#: includes/custom_post.php:220
+msgid "No Min/Max Limitations found in trash"
+msgstr "No se han encontrado limitaciones mínimas/máximas en la papelera"
+
+#: includes/custom_post.php:219
+msgid "No Min/Max Limitations found"
+msgstr "No se han encontrado limitaciones mínimas/máximas"
+
+#: includes/custom_post.php:218
+msgid "Search Min/Max Limitations"
+msgstr "Buscar limitaciones mínimas/máximas"
+
+#: includes/custom_post.php:217
+msgid "View Min/Max Limitation"
+msgstr "Ver limitación mínima/máxima"
+
+#: includes/custom_post.php:216
+msgid "View Min/Max Limitations"
+msgstr "Ver limitaciones mínimas/máximas"
+
+#: includes/custom_post.php:214
+msgid "Edit Min/Max Limitation"
+msgstr "Editar limitación mínima/máxima"
+
+#: includes/addons/set_input_limitation.php:300
+msgid "Only for quantity limitation"
+msgstr "Sólo por limitación de cantidad"
+
+#: includes/addons/set_input_limitation.php:269
+msgid "Displayed on product page when you cannot add more product to the cart"
+msgstr "Se muestra en la página del producto cuando no se puede añadir más producto al carrito"
+
+#: includes/addons/set_input_limitation.php:268
+msgid "Maximum reached Text"
+msgstr "Texto de máximo alcanzado"
+
+#: includes/addons/set_input_limitation.php:262
+msgid "Use global limitation for all quantity fields (All fields will work same as fields on WooCommerce cart page)"
+msgstr "Usar limitación global para todos los campos de cantidad (Todos los campos funcionarán igual que los campos en la página del carrito de WooCommerce)"
+
+#: berocket/includes/functions.php:168
+msgid "Default"
+msgstr "Por defecto"
+
+#: berocket/includes/custom_post.php:275
+msgid "Delete Permanently"
+msgstr "Borrar permanentemente"
+
+#: berocket/includes/admin_notices.php:861
+msgid "Already"
+msgstr "Ya"
+
+#: berocket/includes/conditions.php:490
+msgid "Any"
+msgstr "Cualquiera"
+
+#: berocket/includes/conditions.php:489
+msgid "Backorder allowed"
+msgstr "Reserva permitida"
+
+#: berocket/includes/conditions.php:87
+msgid "Bestsellers"
+msgstr "Más vendidos"
+
+#: berocket/includes/conditions.php:91
+msgid "Category"
+msgstr "Categoría"
+
+#: berocket/includes/custom_post.php:239
+msgid "Copy"
+msgstr "Copiar"
+
+#: berocket/includes/custom_post.php:216
+msgid "Copy settings from"
+msgstr "Copiar ajustes de"
+
+#: berocket/includes/conditions.php:185 berocket/includes/conditions.php:296
+msgid "Count of product"
+msgstr "Recuento del producto"
+
+#: berocket/includes/conditions.php:453
+msgid "day(s)"
+msgstr "día(s)"
+
+#: berocket/includes/custom_post.php:228
+msgid "Do not copy"
+msgstr "No copiar"
+
+#: berocket/framework.php:304
+msgid "Docs"
+msgstr "Documentos"
+
+#: berocket/includes/admin_notices.php:1446
+msgid "Email (optional)"
+msgstr "Correo electrónico (opcional)"
+
+#: berocket/includes/functions.php:311
+msgid "Enter 3 or more characters"
+msgstr "Introduce 3 o más caracteres"
+
+#: berocket/includes/conditions.php:118 berocket/includes/functions.php:352
+msgid "Equal"
+msgstr "Igual"
+
+#: berocket/includes/conditions.php:122 berocket/includes/functions.php:356
+msgid "Equal or less"
+msgstr "Igual o menos"
+
+#: berocket/includes/conditions.php:125 berocket/includes/functions.php:359
+msgid "Equal or more"
+msgstr "Igual o más"
+
+#: berocket/includes/conditions.php:97
+msgid "Featured"
+msgstr "Destacado"
+
+#: berocket/includes/functions.php:249 berocket/includes/functions.php:282
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: berocket/includes/conditions.php:247 berocket/includes/conditions.php:465
+#: berocket/includes/conditions.php:478
+msgid "From:"
+msgstr "De:"
+
+#: berocket/includes/conditions.php:175
+msgid "Is on sale"
+msgstr "Está rebajado"
+
+#: berocket/includes/conditions.php:231
+msgid "Has Rating:"
+msgstr "Tiene valoración:"
+
+#: berocket/includes/admin_notices.php:860
+msgid "I already did"
+msgstr "Ya lo he hecho"
+
+#: berocket/includes/admin_notices.php:1479
+msgid "I already rated it"
+msgstr "Ya lo valoré"
+
+#: berocket/includes/admin_notices.php:1472
+msgid "I'll rate it next time"
+msgstr "Lo valoraré la próxima vez"
+
+#: berocket/includes/conditions.php:276
+msgid "In stock"
+msgstr "Hay existencias"
+
+#: berocket/includes/conditions.php:398
+msgid "Include subcategories"
+msgstr "Incluir subcategorías"
+
+#: berocket/framework.php:792
+msgid "Key for plugin from BeRocket.com"
+msgstr "Clave para el plugin de BeRocket.com"
+
+#: berocket/includes/admin_notices.php:850
+msgid "Later"
+msgstr "Más tarde"
+
+#: berocket/includes/admin_notices.php:849
+msgid "Maybe later"
+msgstr "Quizás más tarde"
+
+#: berocket/includes/custom_post.php:277
+msgid "Move to Trash"
+msgstr "Mover a la papelera"
+
+#: berocket/includes/custom_post.php:192
+msgid "Name"
+msgstr "Nombre"
+
+#: berocket/includes/conditions.php:177 berocket/includes/conditions.php:234
+#: berocket/includes/conditions.php:492
+msgid "No"
+msgstr "No"
+
+#: berocket/includes/conditions.php:119 berocket/includes/functions.php:353
+msgid "Not equal"
+msgstr "No es igual"
+
+#: berocket/includes/admin_notices.php:840
+#: berocket/includes/admin_notices.php:982
+msgid "Ok, you deserved it"
+msgstr "De acuerdo, te lo merecías"
+
+#: berocket/includes/conditions.php:278
+msgid "On Backorder"
+msgstr "En reserva"
+
+#: berocket/includes/conditions.php:86
+msgid "On Sale"
+msgstr "En oferta"
+
+#: berocket/includes/conditions.php:277
+msgid "Out of stock"
+msgstr "Sin existencias"
+
+#: berocket/includes/conditions.php:102
+msgid "Page ID"
+msgstr "ID de página"
+
+#: berocket/framework.php:786
+msgid "Plugin key"
+msgstr "Clave del plugin"
+
+#: berocket/framework.php:319
+msgid "Premium Version"
+msgstr "Versión premium"
+
+#: berocket/includes/conditions.php:88
+msgid "Price"
+msgstr "Precio"
+
+#: berocket/includes/conditions.php:85
+msgid "Product"
+msgstr "Producto"
+
+#: berocket/includes/conditions.php:93
+msgid "Product age"
+msgstr "Edad del producto"
+
+#: berocket/includes/conditions.php:92
+msgid "Product attribute"
+msgstr "Atributo del producto"
+
+#: berocket/includes/conditions.php:103
+msgid "Product Attribute"
+msgstr "Atributo del producto"
+
+#: berocket/includes/conditions.php:105
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#: berocket/includes/conditions.php:100
+msgid "Product Rating"
+msgstr "Valoración del producto"
+
+#: berocket/includes/conditions.php:104
+msgid "Product Search"
+msgstr "Búsqueda de productos"
+
+#: berocket/includes/conditions.php:99
+msgid "Product Type"
+msgstr "Tipo de producto"
+
+#: berocket/includes/conditions.php:487
+msgid "Products in stock"
+msgstr "Productos con existencias"
+
+#: berocket/includes/conditions.php:94
+msgid "Sale price"
+msgstr "Precio rebajado"
+
+#: berocket/includes/conditions.php:95
+msgid "Regular price"
+msgstr "Precio normal"
+
+#: berocket/includes/functions.php:198 berocket/includes/functions.php:251
+#: berocket/includes/functions.php:284
+msgid "Remove"
+msgstr "Quitar"
+
+#: berocket/includes/custom_post.php:287
+msgid "Save"
+msgstr "Guardar"
+
+#: berocket/framework.php:656 berocket/framework.php:885
+#: berocket/includes/updater.php:583
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: berocket/includes/custom_post.php:215
+msgid "Save content"
+msgstr "Guardar contenido"
+
+#: berocket/includes/conditions.php:426
+msgid "Select attribute"
+msgstr "Seleccionar atributo"
+
+#: berocket/includes/admin_notices.php:1448
+msgid "SEND FEATURE REQUEST"
+msgstr "ENVIAR SOLICITUD DE CARACTERÍSTICA"
+
+#: berocket/framework.php:283 berocket/framework.php:549
+#: berocket/templates/settings.php:17
+msgid "Settings"
+msgstr "Ajustes"
+
+#: berocket/includes/conditions.php:98
+msgid "Shipping Class"
+msgstr "Clase de envío"
+
+#: berocket/includes/conditions.php:89
+msgid "Stock status"
+msgstr "Estado del inventario"
+
+#: berocket/includes/conditions.php:248 berocket/includes/conditions.php:466
+#: berocket/includes/conditions.php:479
+msgid "To:"
+msgstr "A:"
+
+#: berocket/includes/conditions.php:90
+msgid "Total sales"
+msgstr "Ventas totales"
+
+#: berocket/includes/functions.php:196 berocket/includes/functions.php:248
+msgid "Upload"
+msgstr "Subir"
+
+#: berocket/includes/conditions.php:176 berocket/includes/conditions.php:233
+#: berocket/includes/conditions.php:491
+msgid "Yes"
+msgstr "Sí"
+
+#: berocket/includes/admin_notices.php:1470
+msgid "This plugin deserves 5 stars"
+msgstr "Este plugin se merece 5 estrellas"
+
+#: berocket/framework.php:315
+msgid "Premium Support"
+msgstr "Soporte premium"
+
+#: berocket/framework.php:303
+msgid "View Plugin Documentation"
+msgstr "Ver la documentación del plugin"
+
+#: berocket/framework.php:282
+msgid "View Plugin Settings"
+msgstr "Ver los ajustes del plugin"
+
+#: berocket/includes/conditions.php:96
+msgid "Stock quantity"
+msgstr "Cantidad en inventario"
+
+#: berocket/includes/admin_notices.php:1460
+msgid "While you're here, you could rate this plugin"
+msgstr "Ya que estás aquí, podrías valorar este plugin"
+
+#: berocket/includes/admin_notices.php:973
+msgid "May we ask you to give us a 5-star feedback?"
+msgstr "¿Podemos pedirte que nos des una valoración de 5 estrellas?"
+
+#: berocket/includes/custom_post.php:287
+msgid "Save/update notice"
+msgstr "Aviso al guardar/actualizar"
+
+#: berocket/includes/admin_notices.php:1447
+msgid "Feature Description"
+msgstr "Descripción de características"
+
+#: berocket/includes/admin_notices.php:1445
+msgid "Feature Title"
+msgstr "Título de la caracteristica"
+
+#: berocket/includes/admin_notices.php:983
+msgid "Support the plugin by setting good feedback.<br>We really need this."
+msgstr "Apoya el plugin estableciendo una buena retroalimentación.<br>Realmente necesitamos esto."
+
+#: berocket/includes/admin_notices.php:838
+#: berocket/includes/admin_notices.php:980
+#: berocket/includes/admin_notices.php:1468
+msgid "Each good feedback is very important for plugin growth"
+msgstr "Cada buena retroalimentación es muy importante para el crecimiento del plugin"
+
+#: berocket/includes/admin_notices.php:827
+msgid "May we ask you to give our plugin %plugin_name% a 5-star rating?"
+msgstr "¿Podemos pedirte que le des a nuestro plugin %plugin_name% una calificación de 5 estrellas?"
+
+#: berocket/includes/admin_notices.php:826
+msgid "Awesome, you've been using %plugin_name% Plugin for more than 1 week. May we ask you to give it a 5-star rating on WordPress?"
+msgstr "Increíble, has estado usando %plugin_name% Plugin por más de 1 semana. ¿Podemos pedirte que le des una calificación de 5 estrellas en WordPress?"
+
+#: berocket/framework.php:318
+msgid "View Premium Version Page"
+msgstr "Ver la página de la versión Premium"
+
+#: berocket/framework.php:314
+msgid "View Premium Support Page"
+msgstr "Ver la página de soporte Premium"

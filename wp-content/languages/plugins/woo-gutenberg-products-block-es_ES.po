@@ -1,0 +1,3448 @@
+# Translation of Plugins - WooCommerce Blocks - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-04 12:44:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable (latest release)\n"
+
+#. translators: %s number of products in cart.
+#: src/BlockTypes/ProductCategories.php:297
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d producto"
+msgstr[1] "%d productos"
+
+#: src/BlockTypes/AbstractProductGrid.php:432
+msgid "Product on sale"
+msgstr "Producto en oferta"
+
+#: src/BlockTypes/ProductCategories.php:171
+msgid "List of categories with their product counts"
+msgstr "Lista de categorías con el recuento de sus productos"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 assets/js/components/grid-layout-control/index.js:52
+msgid "Align Last Block"
+msgstr "Alinear el último bloque"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 assets/js/components/grid-layout-control/index.js:58
+msgid "The last inner block will be aligned vertically."
+msgstr "El último bloque interior se alineará verticalmente."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 assets/js/components/grid-layout-control/index.js:62
+msgid "The last inner block will follow other content."
+msgstr "El último bloque interior seguirá al resto del contenido."
+
+#. translators: %s is a step number (1, 2, 3...)
+#: assets/js/base/components/checkout/form-step/index.js:20
+msgid "Step %d"
+msgstr "Paso %d"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No data to display"
+msgstr "No hay datos para mostrar"
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:250
+msgid "Query type being performed which may affect counts. Valid values include \"and\" and \"or\"."
+msgstr "Tipo de consulta en marcha que podría afectar al contador. Los valores válidos incluye «and» y «or»."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:244
+msgid "Taxonomy name."
+msgstr "Nombre de la taxonomía."
+
+#: build/all-products.js:1
+msgid "Reset Layout"
+msgstr "Restablecer el diseño"
+
+#: build/all-products.js:1
+msgid "Reset layout to default"
+msgstr "Restablecer al diseño por defecto"
+
+#: build/all-products.js:1
+msgid "Edit the blocks inside the preview below to change the content displayed for each product within the product grid."
+msgstr "Edita los bloques dentro de la vista previa de abajo para cambiar el contenido mostrado para cada producto dentro de la cuadrícula de productos."
+
+#: build/all-products.js:1
+msgid "Content Settings"
+msgstr "Ajustes del contenido"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "No products were found that matched your selection."
+msgstr "No se han encontrado productos que coincidan con tu selección."
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/index.js:41
+msgid "Filter by price"
+msgstr "Filtrar por precio"
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:130
+msgid "Products with prices are needed for filtering by price. You haven't created any products yet."
+msgstr "Para filtrar por precio, se necesitan productos con precio. Todavía no has creado ningún producto."
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/index.js:15
+#: assets/js/blocks/price-filter/edit.js:120
+msgid "Filter Products by Price"
+msgstr "Filtrar los productos por precio"
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:84
+msgid "Results will update when the slider is moved."
+msgstr "Los resultados se actualizarán cuando se mueva el control deslizante."
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:80
+msgid "Results will only update when the button is pressed."
+msgstr "Solo se actualizarán los resultados cuando se pulse el botón."
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:74
+msgid "Filter button"
+msgstr "Botón de filtrado"
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:60
+msgid "Text"
+msgstr "Texto"
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:53
+msgid "Editable"
+msgstr "Editable"
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/edit.js:46
+msgid "Price Range"
+msgstr "Rango de precios"
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/utils.js:60
+msgid "Remove"
+msgstr "Eliminar"
+
+#. translators: %s max price
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/utils.js:32
+msgid "Up to %s"
+msgstr "Hasta %s"
+
+#. translators: %s min price
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/utils.js:25
+msgid "From %s"
+msgstr "Desde %s"
+
+#. translators: %s min price, %s max price
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/utils.js:16
+msgid "Between %s and %s"
+msgstr "Entre %s y %s"
+
+#: build/active-filters.js:1 assets/js/blocks/active-filters/index.js:39
+msgid "Active filters"
+msgstr "Filtros activos"
+
+#: build/active-filters.js:1 assets/js/blocks/active-filters/index.js:22
+msgid "Display a list of active product filters."
+msgstr "Muestra una lista de los filtros activos de productos."
+
+#: build/price-filter.js:1 assets/js/blocks/price-filter/index.js:22
+#: assets/js/blocks/price-filter/edit.js:124
+msgid "Display a slider to filter products in your store by price."
+msgstr "Muestra un control deslizante para filtrar por precio los productos de tu tienda."
+
+#: build/active-filters.js:1 assets/js/blocks/active-filters/index.js:15
+msgid "Active Product Filters"
+msgstr "Filtros activos de productos"
+
+#: build/active-filters.js:1 assets/js/blocks/active-filters/edit.js:29
+msgid "Display Style"
+msgstr "Estilo de visualización"
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/block.js:112
+msgid "Clear All"
+msgstr "Vaciar todo"
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/block.js:94
+msgid "Blue"
+msgstr "Azul"
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/block.js:93
+msgid "Color"
+msgstr "Color"
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/block.js:90
+msgid "Small"
+msgstr "Pequeño"
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/block.js:89
+msgid "Size"
+msgstr "Tamaño"
+
+#: build/all-products.js:1 build/price-filter.js:1
+#: assets/js/blocks/products/utils.js:40
+#: assets/js/blocks/price-filter/edit.js:141
+msgid "Add new product"
+msgstr "Añadir un nuevo producto"
+
+#: build/all-products.js:1 assets/js/blocks/products/utils.js:29
+msgid "You haven't published any products to list here yet."
+msgstr "Todavía no has publicado ningún producto para listar aquí."
+
+#: build/all-products.js:1 assets/js/blocks/products/all-products/index.js:28
+msgid "Display all products from your store as a grid."
+msgstr "Muestra todos los productos de tu tienda como una cuadrícula."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/index.js:47
+msgid "Filter by attribute"
+msgstr "Filtrar por atributo"
+
+#. Translators: %s attribute name.
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:241
+msgid "Filter by %s"
+msgstr "Filtrar por %s"
+
+#: build/attribute-filter.js:1 build/all-products.js:1 build/price-filter.js:1
+#: assets/js/blocks/attribute-filter/edit.js:204
+#: assets/js/blocks/products/utils.js:48
+#: assets/js/blocks/price-filter/edit.js:150
+msgid "Learn more"
+msgstr "Aprender más"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:195
+msgid "Add new attribute"
+msgstr "Añadir un nuevo atributo"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:141
+msgid "Or"
+msgstr "O"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:134
+msgid "And"
+msgstr "Y"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:115
+msgid "Right"
+msgstr "Derecha"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:108
+msgid "Center"
+msgstr "Centro"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:101
+msgid "Left"
+msgstr "Izquierda"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/pagination/index.js:94
+#: assets/js/base/components/pagination/index.js:121
+msgid "…"
+msgstr "…"
+
+#: build/all-products-frontend.js:6 build/reviews-frontend-legacy.js:6
+#: build/reviews-frontend.js:6 build/price-filter-frontend.js:6
+#: build/attribute-filter-frontend.js:6 build/active-filters-frontend.js:6
+#: assets/js/base/components/block-error-boundary/block-error.js:10
+msgid "Oops!"
+msgstr "¡Vaya!"
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:82
+msgid "Currency code."
+msgstr "Código de la moneda"
+
+#: src/RestApi/StoreApi/Controllers/Products.php:135
+msgid "Invalid product ID."
+msgstr "ID de producto no válido"
+
+#: src/RestApi/Controllers/Products.php:383
+msgid "Thumbnail URL."
+msgstr "URL de la miniatura."
+
+#: src/RestApi/Controllers/Cart.php:142
+msgid "Attribute value."
+msgstr "Valor del atributo."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:260
+msgid "Search for a product attribute:"
+msgstr "Buscar un atributo de producto:"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:176
+#: assets/js/blocks/attribute-filter/edit.js:313
+msgid "Display a list of filters based on a chosen attribute."
+msgstr "Mostrar una lista de filtros basados en un atributo elegido."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/index.js:15
+#: assets/js/blocks/attribute-filter/edit.js:156
+#: assets/js/blocks/attribute-filter/edit.js:172
+#: assets/js/blocks/attribute-filter/edit.js:309
+msgid "Filter Products by Attribute"
+msgstr "Filtrar productos por atributo"
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributeTerms.php:72
+msgid "Unique identifier for the attribute."
+msgstr "Identificador único del atributo."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:126
+msgid "Products that have any of the selected attributes will be shown."
+msgstr "Se mostrarán los productos que tengan cualquiera de los atributos seleccionados."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:122
+msgid "Products that have all of the selected attributes will be shown."
+msgstr "Se mostrarán los productos que tengan todos los atributos seleccionados."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:116
+msgid "Query Type"
+msgstr "Tipo de consulta"
+
+#: build/attribute-filter.js:1 build/active-filters.js:1
+#: build/price-filter.js:1 assets/js/blocks/attribute-filter/edit.js:110
+#: assets/js/blocks/active-filters/edit.js:23
+#: assets/js/blocks/price-filter/edit.js:40
+msgid "Block Settings"
+msgstr "Ajustes del bloque"
+
+#: build/attribute-filter.js:1 build/active-filters.js:1
+#: build/price-filter.js:1 assets/js/blocks/attribute-filter/edit.js:94
+#: assets/js/blocks/active-filters/edit.js:58
+#: assets/js/blocks/price-filter/edit.js:97
+msgid "Heading Level"
+msgstr "Nivel del encabezado"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:81
+msgid "Product counts are hidden."
+msgstr "La cantidad de productos está oculta."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:77
+msgid "Product counts are visible."
+msgstr "La cantidad de productos es visible."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:71
+msgid "Product count"
+msgstr "Total de productos"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-top-rated-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/all-reviews-legacy.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-reviews.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/error-placeholder/error-message.js:19
+msgid "The following error was returned"
+msgstr "Se devolvió el siguiente error"
+
+#. translators: %s: heading level e.g: "2", "3", "4"
+#: build/attribute-filter.js:1 build/active-filters.js:1
+#: build/all-products.js:1 build/price-filter.js:1
+#: assets/js/components/heading-toolbar/index.js:25
+msgid "Heading %d"
+msgstr "Encabezado %d"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:76
+msgid "%d Product"
+msgid_plural "%d Products"
+msgstr[0] "%d producto"
+msgstr[1] "%d productos"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:61
+msgid "Align Buttons"
+msgstr "Alinear botones"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:94
+msgid "Sale Badge Alignment"
+msgstr "Alineación de la insignia de oferta"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:81
+msgid "Overlay a \"sale\" badge if the product is on-sale."
+msgstr "Mostrar una insignia «en oferta» si el producto está en oferta."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:77
+msgid "Show On-Sale Badge"
+msgstr "Mostrar insignia «En oferta»"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:21
+msgid "Display the main product image"
+msgstr "Mostrar la imagen principal del producto"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/image/index.js:20
+msgid "Product Image"
+msgstr "Imagen del producto"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/rating/index.js:16
+msgid "Display the average rating of a product."
+msgstr "Mostrar el promedio de valoración de un producto."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/rating/index.js:15
+msgid "Product Rating"
+msgstr "Valoración del producto"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/summary/index.js:16
+msgid "Display the short description of a product."
+msgstr "Mostrar la descripción corta de un producto."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/summary/index.js:15
+msgid "Product Summary"
+msgstr "Resumen del producto"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/price/index.js:16
+msgid "Display the price of a product."
+msgstr "Mostrar el precio de un producto."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/price/index.js:15
+msgid "Product Price"
+msgstr "Precio del producto"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/button/index.js:16
+msgid "Product Button"
+msgstr "Botón del producto"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/title/index.js:55
+msgid "Level"
+msgstr "Nivel"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/title/index.js:20
+msgid "Display the name of a product."
+msgstr "Mostrar el nombre de un producto."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/title/index.js:19
+msgid "Product Title"
+msgstr "Título del producto"
+
+#: build/all-products.js:1
+#: assets/js/atomic/blocks/product/sale-badge/index.js:15
+msgid "On-Sale Badge"
+msgstr "Insignia «En oferta»"
+
+#. translators: %s number of products in cart.
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/atomic/components/product/button/index.js:108
+msgid "%d in cart"
+msgid_plural "%d in cart"
+msgstr[0] "%d en el carrito"
+msgstr[1] ""
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/atomic/components/product/sale-badge/index.js:24
+msgid "Sale"
+msgstr "Oferta"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:47
+msgid "This product is awesome, I love it!"
+msgstr "Este producto es asombroso, ¡lo adoro!"
+
+#. translators: An example person name used for the block previews.
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:46
+msgid "Bob"
+msgstr "Roberto"
+
+#: build/all-products.js:1
+msgid "Layout Settings"
+msgstr "Ajustes de diseño"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:37
+msgid "July 12, 2019"
+msgstr "12 de julio de 2019"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:23
+msgid "I bought this product last week and I'm very happy with it."
+msgstr "Compré este producto la semana pasada y estoy muy feliz con él."
+
+#. translators: An example person name used for the block previews.
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:22
+msgid "Alice"
+msgstr "Alicia"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:19 assets/js/previews/reviews.js:43
+msgid "WordPress Pennant"
+msgstr "Banderín de WordPress"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/previews/reviews.js:13
+msgid "July 15, 2019"
+msgstr "15 de julio de 2019"
+
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/previews/categories.js:12
+msgid "Clothing"
+msgstr "Ropa"
+
+#: build/price-filter-frontend.js:6 build/price-filter.js:1
+#: assets/js/base/components/price-slider/price-input.js:28
+#: assets/js/base/components/price-slider/index.js:290
+msgid "Filter products by maximum price"
+msgstr "Filtrar productos por mayor precio"
+
+#. translators: Submit button text for the price filter.
+#: build/price-filter-frontend.js:6 build/price-filter.js:1
+#: assets/js/base/components/price-slider/submit-button.js:16
+msgid "Go"
+msgstr "Adelante"
+
+#. translators: %s: low price, %s: high price.
+#: build/price-filter-frontend.js:6 build/price-filter.js:1
+#: assets/js/base/components/price-slider/price-label.js:15
+msgid "Price: %s — %s"
+msgstr "Precio: %s — %s"
+
+#: build/all-products-frontend.js:6 build/reviews-frontend-legacy.js:6
+#: build/reviews-frontend.js:6 build/price-filter-frontend.js:6
+#: build/attribute-filter-frontend.js:6 build/active-filters-frontend.js:6
+#: assets/js/base/components/block-error-boundary/block-error.js:11
+msgid "There was an error with loading this content."
+msgstr "Hubo un error al cargar este contenido"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/pagination/index.js:140
+#: assets/js/base/components/pagination/index.js:145
+msgid "Next page"
+msgstr "Próxima página"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/pagination/index.js:63
+#: assets/js/base/components/pagination/index.js:71
+msgid "Previous page"
+msgstr "Pagina anterior"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/pagination/index.js:54
+msgid "Navigate to another page"
+msgstr "Navegar a otra página"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-sort-select/index.js:52
+msgid "Price: high to low"
+msgstr "Precio: De mayor a menor"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-sort-select/index.js:45
+msgid "Price: low to high"
+msgstr "Precio: De menor a mayor"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-sort-select/index.js:41
+msgid "Latest"
+msgstr "Últimas"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-sort-select/index.js:30
+msgid "Popularity"
+msgstr "Popularidad"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-sort-select/index.js:23
+msgid "Default sorting"
+msgstr "Orden predeterminado"
+
+#: build/attribute-filter.js:1 build/attribute-filter-frontend.js:6
+#: assets/js/base/components/checkbox-list/index.js:91
+msgid "Show less"
+msgstr "Mostrar menos"
+
+#: build/attribute-filter.js:1 build/attribute-filter-frontend.js:6
+#: assets/js/base/components/checkbox-list/index.js:86
+msgid "Show less options"
+msgstr "Mostrar menos opciones"
+
+#. translators: %s number of options to reveal.
+#: build/attribute-filter.js:1 build/attribute-filter-frontend.js:6
+#: assets/js/base/components/checkbox-list/index.js:63
+msgid "Show %s more"
+msgid_plural "Show %s more"
+msgstr[0] "Mostrar %s más"
+msgstr[1] ""
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/no-matching-products.js:31
+msgid "Reset Search"
+msgstr "Reiniciar búsqueda"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/no-matching-products.js:25
+msgid "We were unable to find any results based on your search."
+msgstr "No hemos podido encontrar ningún resultado basados en tu búsqueda."
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/no-products.js:25
+msgid "There are currently no products available to display."
+msgstr "Actualmente no hay productos disponibles para mostrar."
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/no-products.js:14
+#: assets/js/base/components/product-list/no-products.js:20
+#: assets/js/base/components/product-list/no-matching-products.js:14
+msgid "No products"
+msgstr "Sin productos"
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:141
+msgid "Variation attribute value."
+msgstr "Valor del atributo de la variación."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:136
+msgid "Variation attribute name."
+msgstr "Nombre del atributo de la variación."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:129
+msgid "Chosen attributes (for variations)."
+msgstr "Atributos elegidos (para variaciones)."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:123
+msgid "Current line price."
+msgstr "Precio actual de la línea."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:43
+msgid "The cart item product or variation ID."
+msgstr "El ID del producto o la variación en el carrito."
+
+#: src/RestApi/StoreApi/Schemas/CartSchema.php:69
+msgid "Total weight (in grams) of all products in the cart."
+msgstr "Peso total (en gramos) de todos los productos en el carrito."
+
+#: src/RestApi/StoreApi/Schemas/CartSchema.php:63
+msgid "Total price of all products in the cart."
+msgstr "Precio total de todos los productos en el carrito."
+
+#: src/RestApi/StoreApi/Schemas/CartSchema.php:47
+msgid "List of cart items."
+msgstr "Lista de artículos del carrito."
+
+#: src/RestApi/StoreApi/Schemas/CartSchema.php:41
+msgid "Number of items in the cart."
+msgstr "Número de artículos en el carrito."
+
+#: src/RestApi/StoreApi/Schemas/CartSchema.php:33
+msgid "Currency code (in ISO format) of the cart item prices."
+msgstr "Código de moneda (en formato ISO) del precio de los artículos en el carrito."
+
+#: src/RestApi/StoreApi/Schemas/ProductAttributeSchema.php:57
+msgid "How terms in this attribute are sorted by default."
+msgstr "Cómo se ordenan por defecto los términos en este atributo."
+
+#: src/RestApi/StoreApi/Schemas/ProductAttributeSchema.php:51
+msgid "Attribute type."
+msgstr "Tipo del atributo."
+
+#: src/RestApi/StoreApi/Schemas/TermSchema.php:51
+msgid "Term description."
+msgstr "Descripción del término."
+
+#: src/RestApi/StoreApi/Schemas/TermSchema.php:39
+msgid "Term name."
+msgstr "Nombre del término."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:144
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:150
+msgid "Price amount."
+msgstr "Monto del precio."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:136
+msgid "Price range, if applicable."
+msgstr "Rango del precio, si aplica."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:130
+msgid "Sale product price, if applicable."
+msgstr "Precio en oferta de producto, si aplica."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:124
+msgid "Regular product price"
+msgstr "Precio regular del producto"
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:106
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:112
+msgid "Price prefix, e.g. currency."
+msgstr "Prefijo del precio. Por ejemplo, el símbolo de la moneda."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:100
+msgid "Number of decimal places."
+msgstr "Número de cifras decimales."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:94
+msgid "Thousand separator."
+msgstr "Separador de miles."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:88
+msgid "Decimal separator."
+msgstr "Separador decimal."
+
+#: src/RestApi/StoreApi/Utilities/CartController.php:299
+msgid "No matching variation found."
+msgstr "No se han encontrado variaciones que coincidan."
+
+#. translators: %1$s: Attribute name, %2$s: Allowed values.
+#: src/RestApi/StoreApi/Utilities/CartController.php:261
+msgid "Invalid value posted for %1$s. Allowed values: %2$s"
+msgstr "Valores no válidos publicados para %1$s. Valores permitidos: %2$s"
+
+#. translators: %s: product name
+#: src/RestApi/StoreApi/Utilities/CartController.php:64
+msgid "\"%s\" is already inside your cart."
+msgstr "«%s» ya está en tu carrito."
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributes.php:125
+msgid "Invalid attribute ID."
+msgstr "ID de atributo no válido."
+
+#: src/RestApi/StoreApi/Controllers/CartItems.php:162
+msgid "Cannot create an existing cart item."
+msgstr "No se puede crear un artículo de carrito existente."
+
+#: src/RestApi/StoreApi/Controllers/CartItems.php:144
+#: src/RestApi/StoreApi/Controllers/CartItems.php:195
+#: src/RestApi/StoreApi/Controllers/CartItems.php:217
+msgid "Cart item does not exist."
+msgstr "El artículo del carrito no existe."
+
+#: src/RestApi/StoreApi/Controllers/CartItems.php:87
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:37
+msgid "Unique identifier for the item within the cart."
+msgstr "Identificador único para el artículo en el carrito."
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributeTerms.php:168
+msgid "Should empty terms be hidden?"
+msgstr "¿Deberíamos ocultar los términos vacíos?"
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributeTerms.php:116
+msgid "Attribute does not exist."
+msgstr "El atributo no existe."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:422
+msgid "Attribute taxonomy name."
+msgstr "Nombre del atributo de la taxonomía."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:416
+msgid "Limit result set to products with selected global attributes."
+msgstr "Limitar el resultado a productos con los atributos globales seleccionados."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:408
+msgid "Limit result set to products with specified stock status."
+msgstr "Limitar el resultado a productos con un estado de inventario específico."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:401
+msgid "Limit result set to products based on a maximum price."
+msgstr "Limitar el resultado a productos basados en un precio máximo."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:394
+msgid "Limit result set to products based on a minimum price."
+msgstr "Limitar el resultado a productos basados en un precio mínimo."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:387
+msgid "Limit result set to products on sale."
+msgstr "Limitar el resultado a productos en oferta."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:371
+msgid "Limit result set to products assigned a specific tag ID."
+msgstr "Limitar resultados a productos asignados al ID de una etiqueta específica."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:355
+msgid "Limit result set to products assigned a specific category ID."
+msgstr "Limitar resultados a productos asignados al ID de una categoría específica."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:348
+msgid "Limit result set to featured products."
+msgstr "Limitar el resultado a productos destacados."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:341
+msgid "Limit result set to products with specific SKU(s). Use commas to separate."
+msgstr "Limita el resultado a productos con SKU(s) específico(s). Utiliza comas para separarlos."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:333
+msgid "Limit result set to products assigned a specific type."
+msgstr "Limitar resultados a productos de un tipo determinado."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:323
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr "Limita el resultado establecido a todos los artículos excepto a los que tengan un ID superior particular."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:313
+msgid "Limit result set to those of particular parent IDs."
+msgstr "Limita el resultado establecido a los que tengan IDs superiores particulares."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:268
+msgid "Limit result set to specific ids."
+msgstr "Limita el resultado establecido a IDs específicos."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:224
+msgid "Limit results to those matching a string."
+msgstr "Limita los resultados a lo indicado en la cadena."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:214
+msgid "Maximum number of items to be returned in result set."
+msgstr "Número máximo de artículos a devolver en el conjunto de resultados."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:205
+msgid "Current page of the collection."
+msgstr "Página actual de la colección."
+
+#: src/RestApi/StoreApi/Controllers/Cart.php:84
+msgid "Unable to retrieve cart."
+msgstr "No fue posible recuperar el carrito."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:112
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-sort-select/index.js:34
+msgid "Average rating"
+msgstr "Valoración promedio"
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:104
+msgid "Returns number of products with each average rating."
+msgstr "Devuelve el número de productos con cada calificación promedio."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:95
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:118
+msgid "Number of products."
+msgstr "Número de productos."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:89
+msgid "Term ID"
+msgstr "ID de término"
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:75
+msgid "Max price found in collection of products."
+msgstr "Precio máximo encontrado en la colección de productos."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:69
+msgid "Min price found in collection of products."
+msgstr "Precio mínimo encontrado en la colección de productos."
+
+#: src/RestApi/Controllers/ProductCategories.php:209
+msgid "Number of reviews in the category."
+msgstr "Número de valoraciones en la categoría."
+
+#: src/RestApi/Controllers/ProductCategories.php:178
+msgid "Should we return how many reviews in a category?"
+msgstr "¿Deberíamos mostrar cuántas valoraciones hay en una categoría?"
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:237
+#: src/RestApi/Controllers/Products.php:444
+msgid "Button description."
+msgstr "Descripción del botón."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:231
+#: src/RestApi/Controllers/Products.php:438
+msgid "Button text."
+msgstr "Texto del botón."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:223
+#: src/RestApi/Controllers/Products.php:430
+msgid "Add to cart button parameters."
+msgstr "Parámetros del botón «Añadir al carrito»"
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:217
+#: src/RestApi/Controllers/Products.php:424
+msgid "Is the product in stock?"
+msgstr "¿Este producto está en el inventario?"
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:211
+#: src/RestApi/Controllers/Products.php:418
+msgid "Is the product purchasable?"
+msgstr "¿Este producto se puede comprar?"
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:205
+#: src/RestApi/Controllers/Products.php:412
+msgid "Does the product have options?"
+msgstr "¿Este producto tiene opciones?"
+
+#: src/RestApi/Controllers/Products.php:394
+msgid "Thumbnail sizes for responsive images."
+msgstr "Tamaños de las miniaturas para las imágenes adaptables."
+
+#: src/RestApi/Controllers/Products.php:389
+msgid "Thumbnail srcset for responsive images."
+msgstr "«srcset» de las miniaturas para las imágenes adaptables."
+
+#: src/RestApi/Controllers/Products.php:377
+msgid "Full size image URL."
+msgstr "URL de la imagen a tamaño completo."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:63
+#: src/RestApi/Controllers/Products.php:341
+msgid "Is the product on sale?"
+msgstr "¿Está este producto en oferta?"
+
+#. translators: 1: product name 2: quantity in stock
+#: src/RestApi/StoreApi/Utilities/CartController.php:82
+#: src/RestApi/Controllers/Cart.php:297
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr "No puedes añadir esa cantidad de &quot;%1$s&quot; al carrito porque no hay suficientes existencias (quedan %2$s). "
+
+#. translators: %s: product name
+#: src/RestApi/Controllers/Cart.php:284
+msgid "You cannot add another \"%s\" to your cart."
+msgstr "No puedes añadir otro «%s» a tu carrito."
+
+#. translators: %s: product name
+#: src/RestApi/StoreApi/Utilities/CartController.php:69
+#: src/RestApi/Controllers/Cart.php:276
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr "No puedes añadir «%s» al carrito porque el producto está agotado."
+
+#: src/RestApi/StoreApi/Utilities/CartController.php:59
+#: src/RestApi/Controllers/Cart.php:271
+msgid "This product cannot be purchased."
+msgstr "Este producto no se puede comprar."
+
+#: src/RestApi/StoreApi/Utilities/CartController.php:170
+#: src/RestApi/StoreApi/Utilities/CartController.php:353
+#: src/RestApi/Controllers/Cart.php:267
+msgid "This product cannot be added to the cart."
+msgstr "Este producto no se puede añadir al carrito."
+
+#: src/RestApi/Controllers/Cart.php:201
+msgid "Quantity cannot be empty."
+msgstr "La cantidad no puede estar vacía."
+
+#: src/RestApi/Controllers/Cart.php:197
+msgid "Missing product ID."
+msgstr "Falta el ID del producto."
+
+#: src/RestApi/Controllers/Cart.php:176 src/RestApi/Controllers/Cart.php:214
+msgid "Invalid cart item ID."
+msgstr "ID del artículo del carrito no válido."
+
+#: src/RestApi/Controllers/Cart.php:137
+msgid "Variation attribute."
+msgstr "Atributo de la variación."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:53
+#: src/RestApi/Controllers/Cart.php:114
+msgid "Quantity of this item in the cart."
+msgstr "Cantidad de este artículo en el carrito."
+
+#: src/RestApi/Controllers/Cart.php:108
+msgid "Unique identifier for the cart item in this cart."
+msgstr "Identificador único para el artículo en este carrito."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/index.js:22
+msgid "Display a list of filters based on a chosen product attribute."
+msgstr "Muestra una lista de filtros basados en un atributo elegido."
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:251
+msgid "Clear selected attribute"
+msgstr "Vaciar el atributo seleccionado"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:212
+msgid "Showing attribute filter block preview."
+msgstr "Mostrando la vista previa del bloque de filtro de atributos"
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/button/index.js:17
+msgid "Display a call to action button which either adds the product to the cart, or links to the product page."
+msgstr "Muestra un botón de llamada a la acción con anuncios al producto en el carrito o enlaces a la página del producto."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/title/index.js:70
+#: assets/js/atomic/blocks/product/image/index.js:65
+msgid "Links the image to the single product listing."
+msgstr "Enlaza la imagen al listado de un producto."
+
+#: build/all-products.js:1 assets/js/atomic/blocks/product/title/index.js:66
+#: assets/js/atomic/blocks/product/image/index.js:61
+msgid "Link to Product Page"
+msgstr "Enlace a la página del producto"
+
+#: build/all-products.js:1
+#: assets/js/atomic/blocks/product/sale-badge/index.js:16
+msgid "Displays an on-sale badge if the product is on-sale."
+msgstr "Muestra una insignia de «rebajado» si el producto está en oferta."
+
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/previews/categories.js:16
+msgid "Branded t-shirts, jumpers, pants and more!"
+msgstr "¡Camisetas, zapatillas y pantalones con marca y más!"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/all-products.js:1 assets/js/previews/products.js:16
+msgid "Fly your WordPress banner with this beauty! Deck out your office space or add it to your kids walls. This banner will spruce up any space it’s hung!"
+msgstr "¡Despliega tu estandarte de WordPress con esta belleza! Decora tu oficina o añádela a las paredes de tus hijos. ¡Esta banderola aderezará cualquier espacio en el que se cuelgue!"
+
+#: build/price-filter-frontend.js:6 build/price-filter.js:1
+#: assets/js/base/components/price-slider/price-input.js:15
+#: assets/js/base/components/price-slider/index.js:271
+msgid "Filter products by minimum price"
+msgstr "Filtrar productos por el menor precio"
+
+#: woocommerce-gutenberg-products-block.php:55
+msgid "WooCommerce Blocks requires a more recent version of WordPress and has been paused. Please update WordPress to continue enjoying WooCommerce Blocks."
+msgstr "WooCommerce Blocks requiere una versión de WordPress más reciente y se ha pausado. Por favor, actualiza WordPress para seguir disfrutando de WooCommerce Blocks."
+
+#: src/RestApi/StoreApi/Schemas/CartSchema.php:57
+msgid "True if the cart needs shipping. False for carts with only digital goods or stores with no shipping methods set-up."
+msgstr "True si el carrito necesita envío. False para carritos que solo tengan productos digitales o tiendas sin métodos de envío configurados."
+
+#: src/RestApi/StoreApi/Schemas/ProductAttributeSchema.php:63
+msgid "If this attribute has term archive pages."
+msgstr "Si este atributo tiene páginas de archivo del término."
+
+#: src/RestApi/StoreApi/Schemas/ProductAttributeSchema.php:45
+msgid "String based identifier for the attribute, and its WordPress taxonomy."
+msgstr "Identificador basado en la cadena del atributo, y su taxonomía de WordPress."
+
+#: src/RestApi/StoreApi/Schemas/TermSchema.php:57
+msgid "Number of objects (posts of any type) assigned to the term."
+msgstr "Número de objetos (contenidos de cualquier tipo) asignados al término."
+
+#: src/RestApi/StoreApi/Schemas/TermSchema.php:45
+msgid "String based identifier for the term."
+msgstr "Identificador basado en la cadena del término."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:74
+msgid "Price data."
+msgstr "Datos del precio."
+
+#. translators: %s: Attribute name.
+#: src/RestApi/StoreApi/Utilities/CartController.php:276
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] "%s es un campo obligatorio."
+msgstr[1] "%s son campos obligatorios"
+
+#. translators: %s: Attribute name.
+#: src/RestApi/StoreApi/Utilities/CartController.php:276
+msgid "Missing variation data for variable product."
+msgstr "Datos de la variación no disponibles en el producto variable."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:464
+msgid "Limit result set to products with a certain average rating."
+msgstr "Limitar el resultado establecido a productos con una cierta valoración media."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:447
+msgid "The logical relationship between attributes when filtering across multiple at once."
+msgstr "La relación lógica entre atributos al filtrar entre varios a la vez."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:427
+msgid "List of attribute term IDs."
+msgstr "Lista de IDs del término del atributo."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:258
+msgid "Ensure result set excludes specific IDs."
+msgstr "Asegúrate de que el conjunto de resultados excluya IDs específicos."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:245
+msgid "When limiting response using after/before, which date column to compare against."
+msgstr "Al limitar la respuesta usando antes/después, contra qué columnas de fecha comparar."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:238
+msgid "Limit response to resources created before a given ISO8601 compliant date."
+msgstr "Limitar la respuesta a recursos creados antes de una fecha compatible con ISO8601 dada."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:231
+msgid "Limit response to resources created after a given ISO8601 compliant date."
+msgstr "Limitar la respuesta a recursos creados después de una fecha compatible con ISO8601 dada."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:262
+msgid "If true, calculates rating counts for products in the collection."
+msgstr "Si es true, calcula el contador de valoraciones de los productos de la colección."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:238
+msgid "If requested, calculates attribute term counts for products in the collection."
+msgstr "Si se solicita, calcula la cantidad del término del atributo de los productos de la colección."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:232
+msgid "If true, calculates the minimum and maximum product prices for the collection."
+msgstr "Si es true, calcula los precios mínimo y máximo de los productos de la colección."
+
+#: src/RestApi/StoreApi/Controllers/ProductCollectionData.php:81
+msgid "Returns number of products within attribute terms, indexed by term ID."
+msgstr "Devuelve el número de productos con los términos del atributo, ordenados por ID del término."
+
+#: src/RestApi/Controllers/Cart.php:129
+msgid "If this cart item represents a variation, chosen attributes are shown here."
+msgstr "Si el artículo en el carrito representa a una variación, aquí se muestran los atributos elegidos."
+
+#: src/RestApi/Controllers/Cart.php:124
+msgid "ID of the variation this cart item represents, if applicable."
+msgstr "ID de la variación a la que representa este artículo en el carrito, si procede."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:68
+msgid "Stock keeping unit, if applicable."
+msgstr "Unidad de mantener en el inventario, si procede."
+
+#: build/all-products.js:1 assets/js/blocks/products/edit.js:16
+msgid "Show Sorting Dropdown"
+msgstr "Mostrar orden del desplegable"
+
+#. translators: "Chips" is a tag-like display style for chosen attributes.
+#: build/active-filters.js:1 assets/js/blocks/active-filters/edit.js:44
+msgid "Chips"
+msgstr "Fichas"
+
+#: src/RestApi/StoreApi/Controllers/Products.php:432
+msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
+msgstr "Lista de slug(s) del/los atributo(s). Si se facilita un ID del término esto se ignorará."
+
+#: src/RestApi/Controllers/Cart.php:119
+msgid "ID of the product this cart item represents."
+msgstr "ID del producto al que representa este artículo del carrito."
+
+#: build/active-filters.js:1 build/active-filters-frontend.js:6
+#: assets/js/blocks/active-filters/block.js:37
+msgid "Price"
+msgstr "Precio"
+
+#: build/attribute-filter.js:1 assets/js/blocks/attribute-filter/edit.js:182
+msgid "Attributes are needed for filtering your products. You haven't created any attributes yet."
+msgstr "Se necesitan atributos para filtrar tus productos. Todavía no has creado ningún atributo"
+
+#: build/attribute-filter.js:1 build/attribute-filter-frontend.js:6
+#: assets/js/base/components/checkbox-list/index.js:52
+msgid "Show %s more option"
+msgid_plural "Show %s more options"
+msgstr[0] "Mostrar %s opción más"
+msgstr[1] "Mostrar %s opciones más"
+
+#: build/reviews-by-category.js:1 build/featured-product.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/featured-category-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/all-reviews-legacy.js:1
+#: build/all-reviews.js:1 build/featured-category.js:1
+#: assets/js/components/error-placeholder/index.js:33
+msgid "Retry"
+msgstr "Reintentar"
+
+#: build/reviews-by-category.js:1 build/featured-product.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/featured-category-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/all-reviews-legacy.js:1
+#: build/all-reviews.js:1 build/featured-category.js:1
+#: assets/js/components/error-placeholder/index.js:20
+msgid "Sorry, an error occurred"
+msgstr "Lo siento, ha ocurrido un error"
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/edit.js:55
+msgid "Label is hidden."
+msgstr "La etiqueta está oculta."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-top-rated-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/all-reviews-legacy.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-reviews.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/error-placeholder/error-message.js:10
+msgid "An unknown error occurred which prevented the block from being updated."
+msgstr "Ha ocurrido un error desconocido que ha impedido que el bloque haya sido actualizado."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-top-rated-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/all-reviews-legacy.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-reviews.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/error-placeholder/error-message.js:32
+msgid "The following error was returned from the API"
+msgstr "El siguiente error ha sido devuelto desde la API"
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/edit.js:51
+msgid "Label is visible."
+msgstr "La etiqueta es visible."
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/edit.js:45
+msgid "Show search field label"
+msgstr "Mostrar la etiqueta del campo de búsqueda"
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/index.js:60
+msgid "Search products..."
+msgstr "Buscar productos..."
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/block.js:52
+#: assets/js/blocks/product-search/index.js:50
+#: assets/js/blocks/product-search/edit.js:88
+msgid "Search"
+msgstr "Buscar"
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/index.js:24
+msgid "Help visitors find your products."
+msgstr "Ayuda a los visitantes a encontrar tus productos."
+
+#: build/product-search-legacy.js:1 build/product-search.js:1
+#: assets/js/blocks/product-search/index.js:17
+msgid "Product Search"
+msgstr "Búsqueda de productos"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/frontend-block.js:42
+msgid "Load more reviews"
+msgstr "Cargar más valoraciones"
+
+#: build/reviews-by-category.js:1 build/reviews-by-category-legacy.js:1
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:125
+msgid "Showing Reviews by Category block preview."
+msgstr "Mostrando la vista previa del bloque de valoraciones por categoría."
+
+#: build/reviews-by-category.js:1 build/reviews-by-category-legacy.js:1
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:77
+msgid "Category"
+msgstr "Categoría"
+
+#: build/reviews-by-category.js:1 build/reviews-by-category-legacy.js:1
+#: assets/js/blocks/reviews/reviews-by-category/no-reviews-placeholder.js:20
+msgid "This block lists reviews for products from selected categories. The selected categories do not have any reviews yet, but they will show up here when they do."
+msgstr "Este bloque lista las valoraciones de productos de las categorías seleccionadas. Las categorías seleccionadas todavía no tienen valoraciones, pero se mostrarán aquí cuando las tengan."
+
+#: build/reviews-by-category.js:1 build/reviews-by-category-legacy.js:1
+#: assets/js/blocks/reviews/reviews-by-category/index.js:28
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:142
+msgid "Show product reviews from specific categories."
+msgstr "Mostrar las valoraciones de productos de categorías específicas."
+
+#: build/reviews-by-category.js:1 build/reviews-by-category-legacy.js:1
+#: assets/js/blocks/reviews/reviews-by-category/index.js:21
+#: assets/js/blocks/reviews/reviews-by-category/no-reviews-placeholder.js:15
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:137
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:177
+msgid "Reviews by Category"
+msgstr "Valoraciones por categoría"
+
+#: build/reviews-by-category.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/all-reviews/edit.js:32
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:93
+msgid "Product name"
+msgstr "Nombre del producto"
+
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/all-reviews/no-reviews-placeholder.js:15
+msgid "This block shows a list of all product reviews. Your store does not have any reviews yet, but they will show up here when it does."
+msgstr "Este bloque muestra una lista de todas las valoraciones de productos. Tu tienda todavía no tiene valoraciones, pero se mostrarán aquí cuando las tenga."
+
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/all-reviews/index.js:28
+msgid "Shows a list of all product reviews."
+msgstr "Mostrar una lista de todas las valoraciones de productos."
+
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/all-reviews/index.js:21
+#: assets/js/blocks/reviews/all-reviews/no-reviews-placeholder.js:13
+#: assets/js/blocks/reviews/all-reviews/edit.js:67
+msgid "All Reviews"
+msgstr "Todas las valoraciones"
+
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:126
+msgid "Show reviews of your product to build trust"
+msgstr "Muestra las valoraciones de tus productos para crear confianza"
+
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:109
+msgid "Showing Reviews by Product block preview."
+msgstr "Mostrando la vista previa del bloque de valoraciones por producto."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:56
+#: assets/js/components/product-category-control/index.js:45
+msgid "%s, has %d review"
+msgid_plural "%s, has %d reviews"
+msgstr[0] "%s, tiene %d valoración"
+msgstr[1] "%s, tiene %d valoraciones"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:46
+#: assets/js/components/product-category-control/index.js:67
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] "%d valoración"
+msgstr[1] "%d valoraciones"
+
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/blocks/reviews/reviews-by-product/no-reviews-placeholder.js:30
+msgid "This block lists reviews for a selected product. %s doesn't have any reviews yet, but they will show up here when it does."
+msgstr "Este bloque lista las valoraciones de un producto seleccionado. %s todavía no tiene valoraciones, pero se mostrarán aquí cuando las tenga."
+
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/blocks/reviews/reviews-by-product/index.js:28
+msgid "Show reviews of your product to build trust."
+msgstr "Muestra las valoraciones de tus productos para crear confianza."
+
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/blocks/reviews/reviews-by-product/index.js:21
+#: assets/js/blocks/reviews/reviews-by-product/no-reviews-placeholder.js:44
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:121
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:165
+msgid "Reviews by Product"
+msgstr "Valoraciones por producto"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-products.js:1 build/all-reviews.js:1
+#: assets/js/blocks/products/utils.js:59
+#: assets/js/blocks/reviews/editor-container-block.js:25
+msgid "The content for this block is hidden due to block settings."
+msgstr "El contenido de este bloque está oculto debido a los ajustes del bloque."
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:210
+msgid "Load More Reviews"
+msgstr "Cargar más valoraciones"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:190
+msgid "Starting Number of Reviews"
+msgstr "Número inicial de valoraciones"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:177
+msgid "Order Product Reviews by"
+msgstr "Ordenar las valoraciones de los productos por"
+
+#. translators: A notice that links to WordPress settings.
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:144
+msgid "Reviewer photo is disabled in your %ssite settings%s."
+msgstr "La foto de quien valora está desactivada en tus %sajustes del sitio%s."
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:117
+msgid "Reviewer photo"
+msgstr "Foto de quien valora"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:110
+msgid "Review image"
+msgstr "Imagen de la valoración"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:99
+msgid "Review content"
+msgstr "Contenido de la valoración"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:90
+msgid "Review date"
+msgstr "Fecha de la valoración"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:81
+msgid "Image"
+msgstr "Imagen"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:72
+msgid "Reviewer name"
+msgstr "Nombre de quien valora"
+
+#. translators: A notice that links to WooCommerce settings.
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:58
+msgid "Product rating is disabled in your %sstore settings%s."
+msgstr "La valoración de productos está desactivada en tus %sajustes de la tienda%s."
+
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: assets/js/blocks/reviews/frontend-container-block.js:71
+msgid "There was an error loading the reviews."
+msgstr "Ha habido un error al cargar las valoraciones."
+
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: assets/js/blocks/reviews/frontend-container-block.js:66
+msgid "Reviews list updated."
+msgstr "Lista de valoraciones actualizada."
+
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: assets/js/blocks/reviews/frontend-container-block.js:54
+msgid "%d review loaded."
+msgid_plural "%d reviews loaded."
+msgstr[0] "%d valoración cargada."
+msgstr[1] "%d valoraciones cargadas."
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/read-more/index.js:165
+msgid "Read less"
+msgstr "Leer menos"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/read-more/index.js:164
+msgid "Read more"
+msgstr "Leer más"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-sort-select/index.js:41
+msgid "Order reviews by"
+msgstr "Ordenar las valoraciones por"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-sort-select/index.js:34
+msgid "Lowest rating"
+msgstr "La menor valoración"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-sort-select/index.js:27
+msgid "Highest rating"
+msgstr "La mayor valoración"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-sort-select/index.js:23
+msgid "Most recent"
+msgstr "La más reciente"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-sort-select/index.js:18
+#: assets/js/blocks/reviews/edit-utils.js:170
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/load-more-button/index.js:33
+#: assets/js/blocks/reviews/edit-utils.js:202
+msgid "Load more"
+msgstr "Cargar más"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/all-products-frontend.js:6 build/reviews-frontend-legacy.js:6
+#: build/reviews-frontend.js:6 build/reviews-by-product.js:1
+#: build/reviews-by-category-legacy.js:1 build/all-reviews-legacy.js:1
+#: build/all-products.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-list-item/index.js:139
+#: assets/js/atomic/components/product/rating/index.js:34
+msgid "Rated %d out of 5"
+msgstr "Valorado con %d de 5"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-list-item/index.js:70
+msgid "Hide full review"
+msgstr "Ocultar la valoración completa"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-list-item/index.js:66
+msgid "Read full review"
+msgstr "Leer la valoración completa"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-frontend-legacy.js:6 build/reviews-frontend.js:6
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/base/components/review-list-item/index.js:50
+#: assets/js/base/components/review-list-item/index.js:55
+msgid "Verified buyer"
+msgstr "Comprador verificado"
+
+#: src/RestApi/Controllers/ProductReviews.php:420
+msgid "Limit result set to reviews from products within specific category IDs."
+msgstr "Límite de resultados establecido para las valoraciones de productos dentro de IDs de categorías específicas."
+
+#: src/RestApi/Controllers/ProductReviews.php:411
+msgid "Limit result set to reviews assigned to specific product IDs."
+msgstr "Límite de resultados establecido para las valoraciones de IDs de productos específicos."
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributeTerms.php:156
+#: src/RestApi/StoreApi/Controllers/Products.php:293
+#: src/RestApi/Controllers/ProductReviews.php:397
+msgid "Sort collection by object attribute."
+msgstr "Ordenar la colección por el atributo del objeto."
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributeTerms.php:148
+#: src/RestApi/StoreApi/Controllers/Products.php:285
+#: src/RestApi/Controllers/ProductReviews.php:387
+msgid "Order sort attribute ascending or descending."
+msgstr "Orden de la clasificación de atributos ascendente o descendente."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:278
+#: src/RestApi/Controllers/ProductReviews.php:382
+msgid "Offset the result set by a specific number of items."
+msgstr "Anular el resultado establecido por un número específico de elementos."
+
+#: src/RestApi/Controllers/ProductReviews.php:360
+msgid "Avatar URLs for the object reviewer."
+msgstr "URLs de avatares para quien valora el objeto."
+
+#. translators: %d: avatar image size in pixels
+#: src/RestApi/Controllers/ProductReviews.php:353
+msgid "Avatar URL with image size of %d pixels."
+msgstr "URL del avatar con un tamaño de imagen de %d píxeles."
+
+#: src/RestApi/Controllers/ProductReviews.php:338
+msgid "Shows if the reviewer bought the product or not."
+msgstr "Muestra si quien valora ha comprado el producto o no."
+
+#: src/RestApi/Controllers/ProductReviews.php:332
+msgid "Review rating (0 to 5)."
+msgstr "Puntuación de la valoración (de 0 a 5)."
+
+#: src/RestApi/Controllers/ProductReviews.php:323
+msgid "The content of the review."
+msgstr "El contenido de la valoración."
+
+#: src/RestApi/Controllers/ProductReviews.php:317
+msgid "Reviewer name."
+msgstr "Nombre de quien valora."
+
+#: src/RestApi/Controllers/ProductReviews.php:311
+msgid "Image of the product that the review belongs to."
+msgstr "Imagen del producto al que pertenece la valoración."
+
+#: src/RestApi/Controllers/ProductReviews.php:305
+msgid "Permalink of the product that the review belongs to."
+msgstr "Enlace permanente del producto al que pertenece la valoración."
+
+#: src/RestApi/Controllers/ProductReviews.php:299
+msgid "Name of the product that the review belongs to."
+msgstr "Nombre del producto al que pertenece la valoración."
+
+#: src/RestApi/Controllers/ProductReviews.php:293
+msgid "Unique identifier for the product that the review belongs to."
+msgstr "Identificador único del producto al que pertenece la valoración."
+
+#: src/RestApi/Controllers/ProductReviews.php:281
+msgid "The date the review was created, in the site's timezone in human-readable format."
+msgstr "La fecha de creación de la valoración, en la zona horaria del sitio en formato legible por los humanos."
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/components/product-control/index.js:130
+msgid "%d variation"
+msgid_plural "%d variations"
+msgstr[0] "%d variación"
+msgstr[1] "%d variaciones"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:166
+msgid "All selected tags"
+msgstr "Todas las etiquetas seleccionadas"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:159
+msgid "Any selected tags"
+msgstr "Cualquier etiqueta seleccionada"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:151
+msgid "Pick at least two tags to use this setting."
+msgstr "Elige al menos dos etiquetas para usar este ajuste."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:118
+msgid "Tag search results updated."
+msgstr "Resultados de búsqueda de etiqueta actualizados."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:110
+msgid "%d tag selected"
+msgid_plural "%d tags selected"
+msgstr[0] "%d etiqueta seleccionada"
+msgstr[1] "%d etiquetas seleccionadas"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:104
+msgid "Search for product tags"
+msgstr "Buscar por etiquetas de productos"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:100
+msgid "Your store doesn't have any product tags."
+msgstr "Tu tienda no tiene ninguna etiqueta de producto."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:99
+msgid "Product Tags"
+msgstr "Etiquetas del producto"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:95
+msgid "Clear all product tags"
+msgstr "Vaciar todas las etiquetas de producto"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/components/product-tag-control/index.js:77
+msgid "%d product tagged as %s"
+msgid_plural "%d products tagged as %s"
+msgstr[0] "%d producto etiquetado como %s"
+msgstr[1] "%d productos etiquetados como %s"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/blocks/product-tag/block.js:293
+msgid "This block displays products from selected tags. In order to preview this you'll first need to create a product and assign it some tags."
+msgstr "Este bloque muestra productos de las etiquetas seleccionadas. Para previsualizarlo primero tienes que crear un producto y asignarle alguna etiqueta."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/blocks/product-tag/block.js:240
+msgid "This block displays products from selected tags. Select at least one tag to display its products."
+msgstr "Este bloque muestra productos de las etiquetas seleccionadas. Selecciona al menos una etiqueta para mostrar sus productos."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/blocks/product-tag/block.js:162
+#: assets/js/blocks/product-tag/block.js:171
+msgid "Showing Products by Tag block preview."
+msgstr "Mostrando la vista previa del bloque de productos por etiqueta."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/blocks/product-tag/block.js:102
+msgid "Product Tag"
+msgstr "Etiquetas de producto"
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/blocks/product-tag/block.js:181
+#: assets/js/blocks/product-tag/block.js:234
+#: assets/js/blocks/product-tag/block.js:287
+#: assets/js/blocks/product-tag/index.js:19
+msgid "Products by Tag"
+msgstr "Productos por etiqueta"
+
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:346
+msgid "No product category is selected."
+msgstr "No se ha seleccionado ninguna categoría de productos."
+
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:194
+#: assets/js/blocks/featured-category/block.js:341
+#: assets/js/blocks/featured-category/index.js:22
+msgid "Featured Category"
+msgstr "Categoría destacada"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:129
+msgid "Dropdown"
+msgstr "Desplegable"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: build/active-filters.js:1 assets/js/blocks/product-categories/block.js:122
+#: assets/js/blocks/active-filters/edit.js:36
+msgid "List"
+msgstr "Lista"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:115
+msgid "Display style"
+msgstr "Estilo de visualización"
+
+#: build/reviews-by-category.js:1 build/product-categories-legacy.js:1
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-categories.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/product-categories/block.js:108
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:94
+#: assets/js/blocks/reviews/all-reviews/edit.js:49
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:110
+msgid "List Settings"
+msgstr "Ajustes de la lista"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: assets/js/blocks/featured-product/block.js:94
+msgid "Visually highlight a product or variation and encourage prompt action"
+msgstr "Destaca visualmente un producto o una variación y anima a realizar una acción."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: assets/js/blocks/featured-product/index.js:28
+msgid "Visually highlight a product or variation and encourage prompt action."
+msgstr "Destaca visualmente un producto o una variación y anima a realizar una acción."
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/all-products.js:1 assets/js/blocks/product-tag/block.js:211
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:71
+msgid "Buttons follow content."
+msgstr "Botones debajo del contenido."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:67
+msgid "Buttons are aligned vertically."
+msgstr "Los botones se alinean verticalmente."
+
+#: src/RestApi/Controllers/ProductCategories.php:215
+msgid "Category URL."
+msgstr "URL de categoría."
+
+#: src/RestApi/Controllers/ProductAttributeTerms.php:172
+msgid "Attribute slug."
+msgstr "Slug del atributo."
+
+#: src/RestApi/Controllers/Variations.php:39
+msgid "Unique identifier for the variable product."
+msgstr "Identificador único del producto variable."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:58
+#: src/RestApi/Controllers/Products.php:326
+msgid "Short description or excerpt from description."
+msgstr "Descripción corta o extracto de la descripción."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:46
+#: src/RestApi/Controllers/Variations.php:113
+#: src/RestApi/Controllers/Products.php:314
+msgid "Product variation attributes, if applicable."
+msgstr "Atributos de variaciones de productos, si se aplican."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:456
+#: src/RestApi/Controllers/Products.php:281
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Determina si se muestran o no los productos del catálogo ocultos o visibles."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:378
+#: src/RestApi/Controllers/Products.php:265
+msgid "Operator to compare product tags."
+msgstr "Operador para comparar etiquetas de productos."
+
+#. translators: 1: composer command. 2: plugin directory
+#: woocommerce-gutenberg-products-block.php:81
+#: woocommerce-gutenberg-products-block.php:99
+msgid "Your installation of the WooCommerce Blocks feature plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Tu instalación del plugin WooCommerce Blocks está incompleta. Por favor, ejecuta %1$s dentro del directorio %2$s."
+
+#: build/product-tag.js:1 build/product-tag-legacy.js:1
+#: assets/js/blocks/product-tag/block.js:187
+#: assets/js/blocks/product-tag/index.js:26
+msgid "Display a grid of products from your selected tags."
+msgstr "Muestra una cuadrícula de productos de las etiquetas que selecciones."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:21
+msgid "This block shows product categories for your store. To use it, you'll first need to create a product and assign it to a category."
+msgstr "Este bloque muestra las categorías de productos de tu tienda. Para usarlo, primero tienes que crear un producto y asignarlo a una categoría."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:73
+msgid "Hierarchy is hidden."
+msgstr "La jerarquía está oculta."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "+%d more"
+msgstr "+%d más"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Columns:"
+msgstr "Columnas:"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Choose which values to display"
+msgstr "Elige qué valores mostrar"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Sort by %s in descending order"
+msgstr "Ordenar por %s en orden descendente"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Sort by %s in ascending order"
+msgstr "Ordenar por %s en orden ascendente"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "(scroll to see more)"
+msgstr "(scroll para ver más)"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Previous Period:"
+msgstr "Periodo anterior:"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%d%%"
+msgstr "%d%%"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "N/A"
+msgstr "N/D"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No change from %s"
+msgstr "No cambiar desde %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Down %d%% from %s"
+msgstr "Abajo %d%% desde %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Up %d%% from %s"
+msgstr "Arriba %d%% desde %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Performance Indicators"
+msgstr "Indicadores de rendimiento"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "List of data points available for filtering. Use arrow keys to cycle through the list. Click a data point for a detailed report."
+msgstr "Lista de puntos de datos disponibles para filtrar. Utiliza las teclas de flecha para moverte por la lista. Haz clic en un punto de datos para obtener un informe detallado."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Filters"
+msgstr "Filtros"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%1$s out of %2$s stars."
+msgstr "%1$s de %2$s estrellas."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Rows per page"
+msgstr "Filas por página"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Go to page"
+msgstr "Ir a la página"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Next Page"
+msgstr "Página siguiente"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Page %d of %d"
+msgstr "Página %d de %d"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "filter report to show:"
+msgstr "filtrar el informe a mostrar:"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Date Range"
+msgstr "Rango de fechas"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Update"
+msgstr "Actualizar"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Reset"
+msgstr "Restablecer"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Presets"
+msgstr "Ajustes preestablecidos"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "select a date range"
+msgstr "selecciona un rango de fechas"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Select date range and comparison"
+msgstr "Selecciona un rango de fechas y comparación"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "select a preset period"
+msgstr "selecciona un periodo de ajustes preestablecidos"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Date input describing a selected date range's end date in format %s"
+msgstr "Entradas de fecha que describe la fecha de finalización de un rango de fechas seleccionado en formato de %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "to"
+msgstr "hasta"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Date input describing a selected date range's start date in format %s"
+msgstr "Entradas de fecha que describe la fecha de inicio de un rango de fechas seleccionado en formato de %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Start Date"
+msgstr "Fecha de inicio"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Selected. %s"
+msgstr "Seleccionado. %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%s is not selectable."
+msgstr "%s no se puede seleccionar."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Select %s as an end date."
+msgstr "Selecciona %s como fecha de finalización."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Select %s as a start date."
+msgstr "Selecciona %s como fecha de inicio."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Return to the date input field."
+msgstr "Volver al campo de introducción de fecha."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Go to the first or last day of a week."
+msgstr "Ir al primer o último día de una semana."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Switch months."
+msgstr "Cambiar de mes."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Move backward (up) and forward (down) by one week."
+msgstr "Moverse hacia atrás (arriba) y hacia delante (abajo) una semana."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Move backward (left) and forward (right) by one day."
+msgstr "Moverse hacia atrás (izquierda) y hacia delante (derecha) un día."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "MM/DD/YYYY"
+msgstr "MM/DD/YYYY"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "MMM D, YYYY"
+msgstr "MMM D, YYYY"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Previous Year"
+msgstr "Año anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Previous Period"
+msgstr "Periodo anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Custom"
+msgstr "Personalizado"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Select the date in focus."
+msgstr "Selecciona la fecha resaltada."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Question mark"
+msgstr "Signo de interrogación"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Escape key"
+msgstr "Tecla de escape"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Home and end keys"
+msgstr "Teclas de inicio y fin"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "page up and page down keys"
+msgstr "teclas de página arriba y abajo"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "up and down arrow keys"
+msgstr "teclas de flecha arriba y abajo"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Right and left arrow keys"
+msgstr "Teclas de flecha derecha e izquierda"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Enter key"
+msgstr "Tecla intro"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Move backward to switch to the previous month."
+msgstr "Moverse hacia atrás para cambiar al mes anterior."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Move forward to switch to the next month."
+msgstr "Moverse hacia delante para cambiar al mes siguiente."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear Dates"
+msgstr "Vaciar fechas"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear Date"
+msgstr "Vaciar fecha"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Interact with the calendar and select start and end dates."
+msgstr "Interactúa con el calendario y selecciona las fechas de inicio y fin."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Close"
+msgstr "Cerrar"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Calendar"
+msgstr "Calendario"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "compare to"
+msgstr "comparar con"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Total %d"
+msgstr "Total %d"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Your requested data is loading"
+msgstr "Tus datos solicitados se están cargando"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Bar chart"
+msgstr "Gráfico de barras"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Line chart"
+msgstr "Gráfico de líneas"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "By year"
+msgstr "Por año"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "By quarter"
+msgstr "Por trimestre"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "By month"
+msgstr "Por mes"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "By week"
+msgstr "Por semana"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "By day"
+msgstr "Por día"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "By hour"
+msgstr "Por hora"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "You may select up to %d items."
+msgstr "Puedes seleccionar hasta %d elementos."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all filters"
+msgstr "Vaciar todos los filtros"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Filter"
+msgstr "Filtrar"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Add a Filter"
+msgstr "Añade un filtro"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Choose to apply any or all filters"
+msgstr "Elige aplicar alguno o todos los filtros"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Any"
+msgstr "Alguno"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "All"
+msgstr "Todos"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgctxt "Date range inputs arranged on a single line"
+msgid "{{after /}}{{span}} and {{/span}}{{before /}}"
+msgstr "{{después /}}{{span}} y {{/span}}{{antes /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "select a date"
+msgstr "selecciona una fecha"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Date input describing a selected date in format %s"
+msgstr "Introducción de datos que describe una fecha seleccionada en formato de %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Choose a date"
+msgstr "Selecciona una fecha"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Start date must be before end date"
+msgstr "La fecha de inicio debe ser antes de la fecha de finalización"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Select a date in the past"
+msgstr "Selecciona una fecha en el pasado"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Invalid date"
+msgstr "Fecha no válida"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Last Year"
+msgstr "Año anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Year to Date"
+msgstr "Un año hasta hoy"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Last Quarter"
+msgstr "Trimestre anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Quarter to Date"
+msgstr "Un trimestre hasta hoy"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Last Month"
+msgstr "Mes anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Month to Date"
+msgstr "Un mes hasta hoy"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Last Week"
+msgstr "Semana anterior"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Week to Date"
+msgstr "Una semana hasta hoy"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Today"
+msgstr "Hoy"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Remove %s"
+msgstr "Quitar %s"
+
+#: src/BlockTypes/AbstractProductGrid.php:431
+msgid "Sale!"
+msgstr "¡Oferta!"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "TAX"
+msgstr "IMPUESTO"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No results."
+msgstr "No hay resultados."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/index.js:23
+msgid "Show your product categories as a list or dropdown."
+msgstr "Muestra tus categorías de productos en una lista desplegable."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:15
+#: assets/js/blocks/product-categories/index.js:16
+msgid "Product Categories List"
+msgstr "Lista de categorías de productos"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:96
+msgid "Empty categories are hidden."
+msgstr "Las categorías vacías están ocultas."
+
+#: src/BlockTypes/ProductCategories.php:179
+#: src/BlockTypes/ProductCategories.php:183
+msgid "Select a category"
+msgstr "Selecciona una categoría"
+
+#: src/BlockTypes/ProductCategories.php:191
+msgid "Go to category"
+msgstr "Ir a la categoría"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:48
+msgid "Product count is visible."
+msgstr "La cantidad de productos es visible."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:42
+msgid "Show product count"
+msgstr "Mostrar cantidad de productos"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:63
+msgid "Show hierarchy"
+msgstr "Mostrar jerarquía"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:69
+msgid "Hierarchy is visible."
+msgstr "La jerarquía es visible."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:86
+msgid "Show empty categories"
+msgstr "Mostrar categorías vacías"
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:52
+msgid "Product count is hidden."
+msgstr "La cantidad de productos está oculta."
+
+#: build/product-categories-legacy.js:1 build/product-categories.js:1
+#: assets/js/blocks/product-categories/block.js:92
+msgid "Empty categories are visible."
+msgstr "Las categorías vacías son visibles."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Move backward for selected items"
+msgstr "Moverse hacia atrás de los elementos seleccionados"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "All taxes with codes that include {{query /}}"
+msgstr "Todos los impuestos con códigos que incluyen {{query /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "All products with titles that include {{query /}}"
+msgstr "Todos los productos con títulos que incluyen {{query /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "All customers with names that include {{query /}}"
+msgstr "Todos los clientes con nombres que incluyen {{query /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "All coupons with codes that include {{query /}}"
+msgstr "Todos los cupones con códigos que incluyen {{query /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "All categories with titles that include {{query /}}"
+msgstr "Todas las categorías con títulos que incluyen {{query /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgctxt "Numerical range inputs arranged on a single line"
+msgid "{{rangeStart /}}{{span}} and {{/span}}{{rangeEnd /}}"
+msgstr "{{rangeStart /}}{{span}} y {{/span}}{{rangeEnd /}}"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%(field)s range end"
+msgstr "%(field)s fin del rango"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%(field)s range start"
+msgstr "%(field)s inicio del rango"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgctxt "minimum value input"
+msgid "%(field)s minimum amount"
+msgstr "%(field)s cantidad mínima"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgctxt "maximum value input"
+msgid "%(field)s maximum amount"
+msgstr "%(field)s cantidad máxima"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid ""
+"Press the down arrow key to interact with the calendar and\n"
+"  select a date."
+msgstr ""
+"Pulsa la tecla de flecha abajo para interactuar con el calendario y\n"
+"  seleccionar una fecha."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%1$s (%2$s of %3$s)"
+msgstr "%1$s (%2$s de %3$s)"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%d result found, use up and down arrow keys to navigate."
+msgid_plural "%d results found, use up and down arrow keys to navigate."
+msgstr[0] "%d resultado encontrado, utiliza las teclas de flecha arriba y abajo para navegar."
+msgstr[1] "%d resultados encontrados, utiliza las teclas de flecha arriba y abajo para navegar."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "vs."
+msgstr "frente a"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:235
+#: assets/js/blocks/featured-category/block.js:165
+msgid "Focal Point Picker"
+msgstr "Selector de punto focal"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:33
+msgid "Product price"
+msgstr "Precio del producto"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:24
+msgid "Product title is hidden."
+msgstr "El título del producto está oculto."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:36
+msgid "Product price is visible."
+msgstr "El precio del producto es visible."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:20
+msgid "Product title is visible."
+msgstr "El título del producto es visible."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:75
+msgid "Add to Cart button is hidden."
+msgstr "El botón de añadir al carrito está oculto."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:17
+msgid "Product title"
+msgstr "Título del producto"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:56
+msgid "Product rating is hidden."
+msgstr "La valoración del producto está oculta."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:52
+msgid "Product rating is visible."
+msgstr "La valoración del producto es visible."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:40
+msgid "Product price is hidden."
+msgstr "El precio del producto está oculto."
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/product-top-rated-legacy.js:1 build/product-tag-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/all-reviews-legacy.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-reviews.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/reviews/edit-utils.js:41
+#: assets/js/components/grid-content-control/index.js:49
+msgid "Product rating"
+msgstr "Valoración del producto"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:71
+msgid "Add to Cart button is visible."
+msgstr "El botón de añadir al carrito es visible."
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/grid-content-control/index.js:65
+msgid "Add to Cart button"
+msgstr "Botón de añadir al carrito"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:63
+msgid "%s, has %d term"
+msgid_plural "%s, has %d terms"
+msgstr[0] "%s, tiene %d término"
+msgstr[1] "%s, tiene %d términos"
+
+#: src/RestApi/Controllers/ProductAttributes.php:178
+msgid "Number of terms in the attribute taxonomy."
+msgstr "Número de términos en la taxonomía del atributo."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:122
+#: assets/js/blocks/products-by-attribute/index.js:19
+msgid "Products by Attribute"
+msgstr "Productos por atributo"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:112
+msgid "Showing Products by Attribute block preview."
+msgstr "Viendo la vista previa del bloque de productos por atributo."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:128
+#: assets/js/blocks/products-by-attribute/index.js:26
+msgid "Display a grid of products from your selected attributes."
+msgstr "Muestra una cuadrícula de productos a partir de los atributos que selecciones."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:160
+msgid "Pick at least two attributes to use this setting."
+msgstr "Elige al menos dos atributos para usar este ajuste."
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:168
+msgid "Any selected attributes"
+msgstr "Cualquier atributo seleccionado"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:175
+msgid "All selected attributes"
+msgstr "Todos los atributos seleccionados"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/blocks/products-by-attribute/block.js:68
+msgid "Filter by Product Attribute"
+msgstr "Filtrar por atributo de producto"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: assets/js/blocks/featured-product/block.js:194
+msgid "Show price"
+msgstr "Mostrar precio"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:183
+#: assets/js/blocks/featured-category/block.js:125
+msgid "Show description"
+msgstr "Mostrar descipción"
+
+#: build/product-on-sale-legacy.js:1 build/product-on-sale.js:1
+#: assets/js/blocks/product-on-sale/index.js:26
+msgid "Display a grid of on sale products."
+msgstr "Muestra una cuadrícula de productos rebajados."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:133
+#: assets/js/blocks/handpicked-products/index.js:17
+msgid "Hand-picked Products"
+msgstr "Productos elegidos manualmente"
+
+#: build/product-top-rated-legacy.js:1 build/product-top-rated.js:1
+#: assets/js/blocks/product-top-rated/index.js:28
+msgid "Display a grid of your top rated products."
+msgstr "Muestra una cuadrícula de tus productos más valorados."
+
+#: build/product-top-rated-legacy.js:1 build/product-top-rated.js:1
+#: assets/js/blocks/product-top-rated/index.js:21
+msgid "Top Rated Products"
+msgstr "Productos más valorados"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Select at least one category to display its products."
+msgstr "Elige al menos una categoría para mostrar sus productos."
+
+#: build/product-new-legacy.js:1 build/product-new.js:1
+#: assets/js/blocks/product-new/index.js:26
+msgid "Display a grid of your newest products."
+msgstr "Muestra una cuadrícula de tus productos más recientes."
+
+#: build/product-new-legacy.js:1 build/product-new.js:1
+#: assets/js/blocks/product-new/index.js:19
+msgid "Newest Products"
+msgstr "Productos recientes"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: assets/js/blocks/featured-product/block.js:391
+msgid "No product is selected."
+msgstr "No se ha seleccionado ningún producto."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:146
+#: assets/js/blocks/featured-category/block.js:99
+msgid "Edit media"
+msgstr "Editar medios"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: assets/js/blocks/featured-product/block.js:88
+#: assets/js/blocks/featured-product/block.js:386
+#: assets/js/blocks/featured-product/index.js:21
+msgid "Featured Product"
+msgstr "Producto destacado"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:76
+#: assets/js/blocks/featured-category/block.js:184
+msgid "Showing Featured Product block preview."
+msgstr "Mostrando la vista previa del bloque de producto destacado."
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Showing Products by Category block preview."
+msgstr "Mostrando la vista previa del bloque de productos por categoría."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:123
+msgid "Showing Hand-picked Products block preview."
+msgstr "Mostrando la vista previa del bloque de productos elegidos manualmente."
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:221
+#: assets/js/blocks/featured-category/block.js:151
+msgid "Background Opacity"
+msgstr "Opacidad del fondo"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:211
+#: assets/js/blocks/featured-category/block.js:141
+msgid "Overlay Color"
+msgstr "Color de superposición"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:206
+#: assets/js/blocks/featured-category/block.js:136
+msgid "Overlay"
+msgstr "Superposición"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/featured-product.js:1 build/product-categories-legacy.js:1
+#: build/product-search-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/featured-category-legacy.js:1 build/product-search.js:1
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/attribute-filter.js:1
+#: build/product-new.js:1 build/product-categories.js:1
+#: build/all-reviews-legacy.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/all-reviews.js:1 build/featured-category.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/attribute-filter/edit.js:68
+#: assets/js/blocks/product-search/edit.js:41
+#: assets/js/blocks/products-by-attribute/block.js:57
+#: assets/js/blocks/product-top-rated/block.js:43
+#: assets/js/blocks/handpicked-products/block.js:83
+#: assets/js/blocks/product-categories/block.js:38
+#: assets/js/blocks/featured-product/block.js:180
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:86
+#: assets/js/blocks/reviews/all-reviews/edit.js:29
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:90
+#: assets/js/blocks/product-tag/block.js:132
+#: assets/js/blocks/product-new/block.js:43
+#: assets/js/blocks/product-on-sale/block.js:45
+#: assets/js/blocks/featured-category/block.js:122
+#: assets/js/blocks/product-best-sellers/block.js:43
+#: assets/js/atomic/blocks/product/title/index.js:50
+#: assets/js/atomic/blocks/product/image/index.js:55
+msgid "Content"
+msgstr "Contenido"
+
+#: build/reviews-by-category.js:1 build/reviews-by-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/reviews-by-category-legacy.js:1
+#: build/all-reviews-legacy.js:1 build/all-reviews.js:1
+#: assets/js/blocks/reviews/edit-utils.js:124
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:73
+msgid "Product"
+msgstr "Producto"
+
+#: build/product-best-sellers.js:1 build/product-best-sellers-legacy.js:1
+#: assets/js/blocks/product-best-sellers/index.js:26
+msgid "Display a grid of your all-time best selling products."
+msgstr "Muestra una cuadrícula de tus productos más vendidos de todos los tiempos."
+
+#: build/product-best-sellers.js:1 build/product-best-sellers-legacy.js:1
+#: assets/js/blocks/product-best-sellers/index.js:19
+msgid "Best Selling Products"
+msgstr "Productos más vendidos"
+
+#: build/product-best-sellers.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/product-top-rated.js:1 build/product-on-sale.js:1
+#: assets/js/blocks/product-top-rated/block.js:54
+#: assets/js/blocks/product-new/block.js:54
+#: assets/js/blocks/product-on-sale/block.js:65
+#: assets/js/blocks/product-best-sellers/block.js:54
+msgid "Filter by Product Category"
+msgstr "Filtrar por categoría de producto"
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:274
+#: assets/js/components/product-attribute-term-control/index.js:124
+msgid "Product attribute search results updated."
+msgstr "Actualización de los resultados de la búsqueda de atributos del producto."
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:266
+#: assets/js/components/product-attribute-term-control/index.js:116
+msgid "%d attribute selected"
+msgid_plural "%d attributes selected"
+msgstr[0] "%d atributo seleccionado"
+msgstr[1] "%d atributos seleccionados"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:110
+msgid "Search for product attributes"
+msgstr "Buscar atributos de producto"
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:256
+#: assets/js/components/product-attribute-term-control/index.js:106
+msgid "Your store doesn't have any product attributes."
+msgstr "Tu tienda no tiene ningún atributo de producto."
+
+#: build/products-by-attribute-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1
+#: assets/js/blocks/attribute-filter/edit.js:255
+#: assets/js/components/product-attribute-term-control/index.js:105
+msgid "Product Attributes"
+msgstr "Atributos de producto"
+
+#: build/products-by-attribute-legacy.js:1 build/products-by-attribute.js:1
+#: assets/js/components/product-attribute-term-control/index.js:101
+msgid "Clear all product attributes"
+msgstr "Vaciar todos los atributos de producto"
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: assets/js/components/product-control/index.js:44
+msgid "Search for a product to display"
+msgstr "Buscar un producto a mostrar"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:171
+msgid "All selected categories"
+msgstr "Todas las categorías seleccionadas"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:164
+msgid "Any selected categories"
+msgstr "Cualquier categoría seleccionada"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:156
+msgid "Pick at least two categories to use this setting."
+msgstr "Elige al menos dos categorías para usar este ajuste."
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:52
+#: assets/js/components/product-control/index.js:48
+msgid "Product search results updated."
+msgstr "Actualización de los resultados de la búsqueda de productos."
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:44
+msgid "%d product selected"
+msgid_plural "%d products selected"
+msgstr[0] "%d producto seleccionado"
+msgstr[1] "%d productos seleccionados"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:32
+msgid "Clear all products"
+msgstr "Vaciar todos los productos"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-product/block.js:368
+#: assets/js/blocks/featured-product/index.js:112
+#: assets/js/blocks/featured-category/block.js:255
+#: assets/js/blocks/featured-category/index.js:113
+msgid "Shop now"
+msgstr "Comprar ahora"
+
+#: src/RestApi/StoreApi/Controllers/Products.php:437
+#: src/RestApi/Controllers/Products.php:273
+msgid "Operator to compare product attribute terms."
+msgstr "Operador para comparar los términos de los atributos del producto."
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/product-top-rated-legacy.js:1 build/product-tag-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/product-new.js:1
+#: build/product-top-rated.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-attribute-term-control/index.js:156
+#: assets/js/components/product-tag-control/index.js:147
+#: assets/js/components/product-category-control/index.js:152
+msgid "Display products matching"
+msgstr "Muestra productos coincidentes"
+
+#. Translators: %1$s is the install command, %2$s is the build command, %3$s is
+#. the watch command.
+#: src/Domain/Bootstrap.php:125
+msgid "WooCommerce Blocks development mode requires files to be built. From the plugin directory, run %1$s to install dependencies, %2$s to build the files or %3$s to build the files and watch for changes."
+msgstr "El modo de desarrollo de WooCommerce Blocks necesita que se creen archivos. Desde el directorio de plugins, ejecuta %1$s para instalar dependencias, %2$s para crear los archivos o %3$s para crear los archivos y estar atento a los cambios."
+
+#: src/RestApi/StoreApi/Controllers/Products.php:362
+#: src/RestApi/Controllers/Products.php:257
+msgid "Operator to compare product category terms."
+msgstr "Operador para comparar los términos de categorías de producto."
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:34
+#: assets/js/components/product-control/index.js:40
+msgid "Your store doesn't have any products."
+msgstr "Tu tienda no tiene ningún producto."
+
+#: build/product-on-sale-legacy.js:1 build/product-on-sale.js:1
+#: assets/js/blocks/product-on-sale/index.js:19
+msgid "On Sale Products"
+msgstr "Productos en oferta"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:139
+#: assets/js/blocks/handpicked-products/index.js:24
+msgid "Display a selection of hand-picked products in a grid."
+msgstr "Muestra una selección de productos seleccionados a mano en una cuadrícula."
+
+#: build/featured-category-legacy.js:1 build/featured-category.js:1
+#: assets/js/blocks/featured-category/block.js:200
+#: assets/js/blocks/featured-category/index.js:29
+msgid "Visually highlight a product category and encourage prompt action."
+msgstr "Destaca visualmente una categoría de producto y anima a llevar a cabo una acción."
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+#: assets/js/blocks/product-category/index.js:22
+msgid "Products by Category"
+msgstr "Productos por categoría"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/blocks/products/edit.js:75
+#: assets/js/components/product-orderby-control/index.js:60
+msgid "Menu Order"
+msgstr "Orden en el menú"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/all-products-frontend.js:6 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/products-by-attribute.js:1
+#: build/product-on-sale.js:1 build/all-products.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/base/components/product-sort-select/index.js:59
+#: assets/js/components/product-orderby-control/index.js:14
+msgid "Order products by"
+msgstr "Ordenar productos por"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/products-by-attribute/block.js:94
+#: assets/js/blocks/handpicked-products/block.js:94
+#: assets/js/blocks/product-tag/block.js:143
+#: assets/js/blocks/product-on-sale/block.js:56
+msgid "Order By"
+msgstr "Ordernar por"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-best-sellers.js:1 build/product-category-legacy.js:1
+#: build/featured-product.js:1 build/product-categories-legacy.js:1
+#: build/product-search-legacy.js:1 build/blocks.js:1
+#: build/product-top-rated-legacy.js:1 build/product-tag-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/featured-category-legacy.js:1
+#: build/product-search.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/product-best-sellers-legacy.js:1 build/blocks-legacy.js:1
+#: build/attribute-filter.js:1 build/product-new.js:1
+#: build/product-categories.js:1 build/all-reviews-legacy.js:1
+#: build/active-filters.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/all-reviews.js:1 build/featured-category.js:1
+#: build/price-filter.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/index.js:19
+#: assets/js/blocks/attribute-filter/index.js:21
+#: assets/js/blocks/product-search/index.js:23
+#: assets/js/blocks/products/all-products/index.js:27
+#: assets/js/blocks/products-by-attribute/index.js:25
+#: assets/js/blocks/product-top-rated/index.js:27
+#: assets/js/blocks/handpicked-products/index.js:23
+#: assets/js/blocks/product-categories/index.js:22
+#: assets/js/blocks/product-category/index.js:28
+#: assets/js/blocks/featured-product/index.js:27
+#: assets/js/blocks/reviews/reviews-by-product/index.js:27
+#: assets/js/blocks/reviews/all-reviews/index.js:27
+#: assets/js/blocks/reviews/reviews-by-category/index.js:27
+#: assets/js/blocks/product-tag/index.js:25
+#: assets/js/blocks/product-new/index.js:25
+#: assets/js/blocks/product-on-sale/index.js:25
+#: assets/js/blocks/featured-category/index.js:28
+#: assets/js/blocks/active-filters/index.js:21
+#: assets/js/blocks/product-best-sellers/index.js:25
+#: assets/js/blocks/price-filter/index.js:21
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/products-control/index.js:38
+msgid "Search for products to display"
+msgstr "Busca productos a mostrar"
+
+#: src/RestApi/Controllers/ProductAttributeTerms.php:94
+#: src/RestApi/Controllers/ProductAttributes.php:97
+#: src/RestApi/Controllers/ProductAttributes.php:127
+#: src/RestApi/Controllers/ProductTags.php:94
+#: src/RestApi/Controllers/ProductCategories.php:94
+msgid "Resource does not exist."
+msgstr "El recurso no existe."
+
+#: src/RestApi/Controllers/ProductAttributeTerms.php:85
+#: src/RestApi/Controllers/ProductAttributes.php:118
+#: src/RestApi/Controllers/ProductTags.php:85
+#: src/RestApi/Controllers/ProductCategories.php:85
+msgid "Taxonomy does not exist."
+msgstr "La taxonomía no existe."
+
+#: src/RestApi/Controllers/ProductAttributes.php:101
+#: src/RestApi/Controllers/Products.php:103
+msgid "Sorry, you cannot view this resource."
+msgstr "Lo siento, no puedes ver este recurso."
+
+#: src/RestApi/Controllers/ProductReviews.php:64
+#: src/RestApi/Controllers/ProductAttributes.php:82
+#: src/RestApi/Controllers/Variations.php:62
+#: src/RestApi/Controllers/Products.php:90
+msgid "Sorry, you cannot list resources."
+msgstr "Lo siento, no puedes listar recursos."
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+msgid "Product Category"
+msgstr "Categoría de productos"
+
+#: build/product-category-legacy.js:1 build/product-category.js:1
+#: assets/js/blocks/product-category/index.js:29
+msgid "Display a grid of products from your selected categories."
+msgstr "Muestra una cuadrícula de productos de la categorías que elijas."
+
+#: build/featured-product.js:1 build/reviews-by-product-legacy.js:1
+#: build/featured-product-legacy.js:1 build/reviews-by-product.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:103
+#: assets/js/components/products-control/index.js:33
+#: assets/js/components/product-control/index.js:39
+msgid "Products"
+msgstr "Productos"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 assets/js/components/grid-layout-control/index.js:40
+msgid "Rows"
+msgstr "Filas"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/components/product-orderby-control/index.js:53
+msgid "Title - alphabetical"
+msgstr "Apilados - alfabéticamente"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/blocks/products/edit.js:68
+#: assets/js/components/product-orderby-control/index.js:46
+msgid "Sales - most first"
+msgstr "Rebajados - primero los más rebajados"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/blocks/products/edit.js:54
+#: assets/js/components/product-orderby-control/index.js:32
+msgid "Price - high to low"
+msgstr "Precio - de mayor a menor"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/attribute-filter.js:1
+#: build/all-reviews-legacy.js:1 build/products-by-attribute.js:1
+#: build/all-products.js:1 build/all-reviews.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/attribute-filter/edit.js:54
+#: assets/js/blocks/products-by-attribute/block.js:174
+#: assets/js/blocks/handpicked-products/block.js:174
+#: assets/js/blocks/featured-product/block.js:159
+#: assets/js/blocks/reviews/edit-utils.js:28
+#: assets/js/blocks/product-tag/block.js:267
+msgid "Edit"
+msgstr "Editar"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/handpicked-products.js:1 build/handpicked-products-legacy.js:1
+#: assets/js/blocks/products-by-attribute/block.js:46
+#: assets/js/blocks/product-top-rated/block.js:32
+#: assets/js/blocks/handpicked-products/block.js:45
+#: assets/js/blocks/product-tag/block.js:121
+#: assets/js/blocks/product-new/block.js:32
+#: assets/js/blocks/product-on-sale/block.js:34
+#: assets/js/blocks/product-best-sellers/block.js:32
+msgid "Layout"
+msgstr "Diseño"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/blocks/products/edit.js:47
+#: assets/js/components/product-orderby-control/index.js:25
+msgid "Price - low to high"
+msgstr "Precio - de menor a mayor"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/blocks/products/edit.js:40
+#: assets/js/components/product-orderby-control/index.js:18
+msgid "Newness - newest first"
+msgstr "Novedad - primero los más novedosos"
+
+#: build/all-products.js:1 assets/js/blocks/products/edit.js:36
+msgid "Order Products By"
+msgstr "Ordenar productos por"
+
+#: build/product-tag.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-new-legacy.js:1
+#: build/product-category.js:1 build/products-by-attribute-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/handpicked-products/block.js:49
+#: assets/js/components/grid-layout-control/index.js:28
+msgid "Columns"
+msgstr "Columnas"
+
+#: build/all-products.js:1 assets/js/blocks/products/all-products/index.js:21
+msgid "All Products"
+msgstr "Todos los productos"
+
+#: build/product-tag.js:1 build/product-category-legacy.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/products-by-attribute-legacy.js:1 build/product-on-sale-legacy.js:1
+#: build/products-by-attribute.js:1 build/product-on-sale.js:1
+#: build/all-products.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1 assets/js/blocks/products/edit.js:61
+#: assets/js/components/product-orderby-control/index.js:39
+msgid "Rating - highest first"
+msgstr "Valoración - primero los más valorados"
+
+#: build/all-products-frontend.js:6 build/all-products.js:1
+#: assets/js/base/components/product-list/no-matching-products.js:20
+msgid "No products found"
+msgstr "No se han encontrado productos"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Results"
+msgstr "Resultados"
+
+#: build/featured-product.js:1 build/featured-product-legacy.js:1
+#: build/all-products.js:1 assets/js/previews/products.js:49
+#: assets/js/previews/products.js:50
+#: assets/js/components/product-preview/index.js:72
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:60
+#: assets/js/components/product-category-control/index.js:55
+msgid "%s, has %d product"
+msgid_plural "%s, has %d products"
+msgstr[0] "%s, tiene %d producto"
+msgstr[1] "%s, tiene %d productos"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Blocks"
+msgstr "WooCommerce Blocks"
+
+#. Description of the plugin
+msgid "WooCommerce blocks for the Gutenberg editor."
+msgstr "Bloques WooCommerce para el editor Gutenberg."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:100
+msgid "Product Categories"
+msgstr "Categorías de producto"
+
+#: build/product-tag.js:1 build/reviews-by-category.js:1
+#: build/product-category-legacy.js:1 build/featured-product.js:1
+#: build/product-tag-legacy.js:1 build/product-category.js:1
+#: build/reviews-by-product-legacy.js:1 build/featured-product-legacy.js:1
+#: build/reviews-by-product.js:1 build/featured-category-legacy.js:1
+#: build/products-by-attribute-legacy.js:1
+#: build/reviews-by-category-legacy.js:1 build/attribute-filter.js:1
+#: build/products-by-attribute.js:1 build/all-products.js:1
+#: build/featured-category.js:1 build/handpicked-products.js:1
+#: build/handpicked-products-legacy.js:1
+#: assets/js/blocks/attribute-filter/edit.js:321
+#: assets/js/blocks/products-by-attribute/block.js:152
+#: assets/js/blocks/handpicked-products/block.js:152
+#: assets/js/blocks/featured-product/block.js:112
+#: assets/js/blocks/reviews/reviews-by-product/edit.js:144
+#: assets/js/blocks/reviews/reviews-by-category/edit.js:156
+#: assets/js/blocks/product-tag/block.js:204
+#: assets/js/blocks/featured-category/block.js:218
+msgid "Done"
+msgstr "Hecho"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:111
+msgid "%d category selected"
+msgid_plural "%d categories selected"
+msgstr[0] "%d categoría seleccionada"
+msgstr[1] "%d categorías seleccionadas"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:105
+msgid "Search for product categories"
+msgstr "Buscar categorías de producto"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:101
+msgid "Your store doesn't have any product categories."
+msgstr "Tu tienda aún no tiene ninguna categoría de producto."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Search results updated."
+msgstr "Resultados de búsqueda actualizados."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "%d item selected"
+msgid_plural "%d items selected"
+msgstr[0] "%d producto seleccionado"
+msgstr[1] "%d productos seleccionados"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Search for items"
+msgstr "Buscar productos"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No results for %s"
+msgstr "Ningún resultado para %s"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "No items found."
+msgstr "Ningún producto encontrado."
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all selected items"
+msgstr "Vaciar todos los productos seleccionados"
+
+#: build/vendors-legacy.js:6 build/vendors.js:6
+msgid "Clear all"
+msgstr "Vaciar todo"
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:119
+msgid "Category search results updated."
+msgstr "Resultados de la búsqueda de categoría actualizados."
+
+#: build/reviews-by-category.js:1 build/product-best-sellers.js:1
+#: build/product-category-legacy.js:1 build/product-top-rated-legacy.js:1
+#: build/product-new-legacy.js:1 build/product-category.js:1
+#: build/featured-category-legacy.js:1 build/reviews-by-category-legacy.js:1
+#: build/product-on-sale-legacy.js:1 build/product-best-sellers-legacy.js:1
+#: build/product-new.js:1 build/product-top-rated.js:1
+#: build/product-on-sale.js:1 build/featured-category.js:1
+#: assets/js/components/product-category-control/index.js:96
+msgid "Clear all product categories"
+msgstr "Vaciar todas las categorías de productos"
+
+#: src/RestApi/Controllers/ProductAttributeTerms.php:154
+msgid "Attribute."
+msgstr "Atributo."
+
+#: build/all-products.js:1
+msgid "Showing All Products block preview."
+msgstr "Mostrando la vista previa del bloque de todos los productos."
+
+#: src/RestApi/StoreApi/Schemas/ProductAttributeSchema.php:39
+#: src/RestApi/Controllers/ProductAttributeTerms.php:166
+msgid "Attribute name."
+msgstr "Nombre del atributo."
+
+#: src/RestApi/Controllers/ProductAttributeTerms.php:160
+msgid "Attribute ID."
+msgstr "ID del atributo."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:108
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:197
+#: src/RestApi/Controllers/Products.php:404
+msgid "Image alternative text."
+msgstr "Texto alternativo de la imagen."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:102
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:192
+#: src/RestApi/Controllers/Products.php:399
+msgid "Image name."
+msgstr "Nombre de la imagen."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:95
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:186
+msgid "Image URL."
+msgstr "URL de la imagen."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:89
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:181
+#: src/RestApi/Controllers/Products.php:372
+msgid "Image ID."
+msgstr "ID de la imagen."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:81
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:174
+#: src/RestApi/Controllers/Products.php:365
+msgid "List of images."
+msgstr "Lista de imágenes."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:162
+#: src/RestApi/Controllers/Products.php:353
+msgid "Reviews average rating."
+msgstr "Puntuación promedio de las valoraciones."
+
+#: src/RestApi/Controllers/Products.php:347
+msgid "Price formatted in HTML."
+msgstr "Precio en formato HTML."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:117
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:118
+#: src/RestApi/Controllers/Products.php:336
+msgid "Current product price."
+msgstr "Precio actual del producto."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:69
+#: src/RestApi/Controllers/Products.php:331
+msgid "Unique identifier."
+msgstr "Identificador único."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:74
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:51
+#: src/RestApi/Controllers/Products.php:319
+msgid "Product URL."
+msgstr "URL del producto."
+
+#: src/RestApi/StoreApi/Schemas/CartItemSchema.php:62
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:41
+#: src/RestApi/Controllers/Variations.php:108
+#: src/RestApi/Controllers/Products.php:309
+msgid "Product name."
+msgstr "Nombre del producto."
+
+#: src/RestApi/StoreApi/Controllers/ProductAttributes.php:75
+#: src/RestApi/StoreApi/Controllers/Products.php:85
+#: src/RestApi/StoreApi/Schemas/TermSchema.php:33
+#: src/RestApi/StoreApi/Schemas/ProductAttributeSchema.php:33
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:35
+#: src/RestApi/Controllers/ProductReviews.php:269
+#: src/RestApi/Controllers/ProductAttributeTerms.php:53
+#: src/RestApi/Controllers/Cart.php:66
+#: src/RestApi/Controllers/ProductAttributes.php:53
+#: src/RestApi/Controllers/Variations.php:102
+#: src/RestApi/Controllers/ProductTags.php:53
+#: src/RestApi/Controllers/ProductCategories.php:53
+#: src/RestApi/Controllers/Products.php:61
+#: src/RestApi/Controllers/Products.php:303
+msgid "Unique identifier for the resource."
+msgstr "Identificador único del recurso."
+
+#: src/RestApi/Controllers/ProductReviews.php:287
+msgid "The date the review was created, as GMT."
+msgstr "La fecha de creación de la valoración, como GMT."
+
+#: src/RestApi/Controllers/ProductReviews.php:275
+msgid "The date the review was created, in the site's timezone."
+msgstr "La fecha de creación de la valoración, en la zona horaria del sitio."
+
+#: src/RestApi/StoreApi/Schemas/ProductSchema.php:168
+#: src/RestApi/Controllers/Products.php:359
+msgid "Amount of reviews that the product has."
+msgstr "La cantidad de valoraciones que tiene el producto."
+
+#: src/BlockTypes/ProductCategories.php:170
+msgid "List of categories"
+msgstr "Lista de categorías"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
